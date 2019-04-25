@@ -3,167 +3,4491 @@
 <head>
 <meta charset="utf-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-<title>İstanbul Kültür Haritası</title>
+<title>index</title>
 <style id="applicationStylesheet" type="text/css">
 	body {
 		margin: 0;
 		padding: 0;
 	}
 	:root {
-		--web-view-ids: MainPage;
+		--web-view-ids: Harita_Ana_Sayfa;
 	}
-	#MainPage * {
+	#Harita_Ana_Sayfa * {
 		margin: 0;
 		padding: 0;
 	}
-	#MainPage {
+	#Harita_Ana_Sayfa {
 		position: absolute;
 		box-sizing: border-box;
 		background: #E5E5E5;
-		width: 1920px;
-		height: 1080px;
+		width: 1920;
+		height: 1080;
 		background-color: rgba(255,255,255,1);
 		overflow: hidden;
 		margin: 0;
 		padding: 0;
 		opacity: 1;
-		--web-view-name: MainPage;
-		--web-view-id: MainPage;
+		--web-view-name: Harita-Ana Sayfa;
+		--web-view-id: Harita_Ana_Sayfa;
+		--web-scale-to-fit: true;
 		--web-enable-deep-linking: true;
 	}
-	#Rectangle_1512 {
+	#Harita {
 		opacity: 1;
-		fill: rgba(52,54,76,1);
+		fill: url(#Harita_A0_Rectangle_2_pattern);
 	}
-	.Rectangle_1512 {
+	.Harita {
+		position: absolute;
+		overflow: visible;
+		width: 2254px;
+		height: 1061px;
+		left: -209px;
+		top: 34px;
+	}
+	#Kategoriler {
+		opacity: 1;
+		position: absolute;
+		width: 410.68px;
+		height: 686px;
+		left: 1508.91px;
+		top: -625px;
+		overflow: visible;
+	}
+	#Background {
+		opacity: 1;
+		fill: rgba(247,247,247,1);
+		stroke: rgb(51, 51, 51);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Background {
+		position: absolute;
+		overflow: visible;
+		width: 410.68px;
+		height: 686px;
+		left: 0px;
+		top: 0px;
+	}
+	#Topluluk_Alanlar_ {
+		opacity: 1;
+		position: absolute;
+		width: 223.102px;
+		height: 279px;
+		left: 186.59px;
+		top: 334px;
+		overflow: visible;
+	}
+	#Kapat_c_ {
+		opacity: 1;
+		fill: rgba(247,247,247,1);
+	}
+	.Kapat_c_ {
+		position: absolute;
+		overflow: visible;
+		width: 222px;
+		height: 279px;
+		left: 0px;
+		top: 0px;
+	}
+	#Rectangle_1558 {
+		opacity: 1;
+		fill: transparent;
+	}
+	.Rectangle_1558 {
+		position: absolute;
+		overflow: visible;
+		width: 21px;
+		height: 22px;
+		left: 40px;
+		top: 115px;
+	}
+	#AltKategori {
+		opacity: 1;
+		position: absolute;
+		width: 155.077px;
+		height: 198px;
+		left: 39.773px;
+		top: 73px;
+		overflow: hidden;
+	}
+	#AltKategori_A0_Group_3 {
+		opacity: 1;
+		position: absolute;
+		width: 97.077px;
+		height: 22px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Dernekler {
+		opacity: 1;
+		position: absolute;
+		left: 29.076px;
+		top: 0px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: visible;
+		width: 69px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		color: rgba(51,51,51,1);
+	}
+	#__aret_Kutusu {
+		opacity: 1;
+		fill: transparent;
+		stroke: rgb(51, 51, 51);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.__aret_Kutusu {
+		position: absolute;
+		overflow: visible;
+		width: 22px;
+		height: 22px;
+		left: 0px;
+		top: 0px;
+	}
+	#AltKategori_A0_Group_4 {
+		opacity: 1;
+		position: absolute;
+		width: 130.077px;
+		height: 22px;
+		left: 0px;
+		top: 42px;
+		overflow: visible;
+	}
+	#Devlet_Binalar_ {
+		opacity: 1;
+		position: absolute;
+		left: 29.076px;
+		top: 0px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: visible;
+		width: 102px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		color: rgba(51,51,51,1);
+	}
+	#__aret_Kutusu_A0_Rectangle_7 {
+		opacity: 1;
+		fill: transparent;
+		stroke: rgb(51, 51, 51);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.__aret_Kutusu_A0_Rectangle_7 {
+		position: absolute;
+		overflow: visible;
+		width: 22px;
+		height: 22px;
+		left: 0px;
+		top: 0px;
+	}
+	#AltKategori_A0_Group_5 {
+		opacity: 1;
+		position: absolute;
+		width: 110.077px;
+		height: 22px;
+		left: 0px;
+		top: 84px;
+		overflow: visible;
+	}
+	#Dini_Alanlar {
+		opacity: 1;
+		position: absolute;
+		left: 29.076px;
+		top: 0px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: visible;
+		width: 82px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		color: rgba(51,51,51,1);
+	}
+	#__aret_Kutusu_A0_Rectangle_8 {
+		opacity: 1;
+		fill: transparent;
+		stroke: rgb(51, 51, 51);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.__aret_Kutusu_A0_Rectangle_8 {
+		position: absolute;
+		overflow: visible;
+		width: 22px;
+		height: 22px;
+		left: 0px;
+		top: 0px;
+	}
+	#AltKategori_A0_Group_6 {
+		opacity: 1;
+		position: absolute;
+		width: 131.077px;
+		height: 22px;
+		left: 0px;
+		top: 126px;
+		overflow: visible;
+	}
+	#Konsolosluklar {
+		opacity: 1;
+		position: absolute;
+		left: 29.076px;
+		top: 0px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: visible;
+		width: 103px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		color: rgba(51,51,51,1);
+	}
+	#__aret_Kutusu_A0_Rectangle_9 {
+		opacity: 1;
+		fill: transparent;
+		stroke: rgb(51, 51, 51);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.__aret_Kutusu_A0_Rectangle_9 {
+		position: absolute;
+		overflow: visible;
+		width: 22px;
+		height: 22px;
+		left: 0px;
+		top: 0px;
+	}
+	#AltKategori_A0_Group_7 {
+		opacity: 1;
+		position: absolute;
+		width: 87.077px;
+		height: 22px;
+		left: 0px;
+		top: 168px;
+		overflow: visible;
+	}
+	#Kul_pler {
+		opacity: 1;
+		position: absolute;
+		left: 29.076px;
+		top: 0px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: visible;
+		width: 59px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		color: rgba(51,51,51,1);
+	}
+	#__aret_Kutusu_A0_Rectangle_10 {
+		opacity: 1;
+		fill: transparent;
+		stroke: rgb(51, 51, 51);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.__aret_Kutusu_A0_Rectangle_10 {
+		position: absolute;
+		overflow: visible;
+		width: 22px;
+		height: 22px;
+		left: 0px;
+		top: 0px;
+	}
+	#Ba_l_k {
+		opacity: 1;
+		position: absolute;
+		width: 223.102px;
+		height: 50px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#ArkaRenk {
+		opacity: 1;
+		fill: rgba(130,94,232,1);
+	}
+	.ArkaRenk {
+		position: absolute;
+		overflow: visible;
+		width: 223.102px;
+		height: 50px;
+		left: 0px;
+		top: 0px;
+	}
+	#Topluluk_Alanlar__A0_Text_6 {
+		opacity: 1;
+		position: absolute;
+		left: 36.52px;
+		top: 13px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: visible;
+		width: 140px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 19px;
+		color: rgba(255,255,255,1);
+	}
+	#AnaKategoriKutu {
+		opacity: 1;
+		fill: rgba(255,255,255,1);
+		stroke: rgb(102, 65, 210);
+		stroke-width: 2px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.AnaKategoriKutu {
+		position: absolute;
+		overflow: visible;
+		width: 21px;
+		height: 21px;
+		left: 189.004px;
+		top: 16px;
+	}
+	#E_itim {
+		opacity: 1;
+		position: absolute;
+		width: 204.249px;
+		height: 332px;
+		left: 1.09px;
+		top: 334px;
+		overflow: visible;
+	}
+	#Kapat_c__A0_Rectangle_13 {
+		opacity: 1;
+		fill: rgba(247,247,247,1);
+	}
+	.Kapat_c__A0_Rectangle_13 {
+		position: absolute;
+		overflow: visible;
+		width: 204.25px;
+		height: 332px;
+		left: 0px;
+		top: 0px;
+	}
+	#Rectangle_1558_A0_Rectangle_14 {
+		opacity: 1;
+		fill: transparent;
+	}
+	.Rectangle_1558_A0_Rectangle_14 {
+		position: absolute;
+		overflow: visible;
+		width: 21px;
+		height: 22px;
+		left: 36.467px;
+		top: 115px;
+	}
+	#AltKategori_A0_RepeatGrid_2 {
+		opacity: 1;
+		position: absolute;
+		width: 155.077px;
+		height: 240px;
+		left: 22.021px;
+		top: 73px;
+		overflow: hidden;
+	}
+	#AltKategori_A0_Group_10 {
+		opacity: 1;
+		position: absolute;
+		width: 145.077px;
+		height: 22px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#E_itim_At_lyeleri {
+		opacity: 1;
+		position: absolute;
+		left: 29.076px;
+		top: 0px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: visible;
+		width: 117px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		color: rgba(51,51,51,1);
+	}
+	#__aret_Kutusu_A0_Rectangle_15 {
+		opacity: 1;
+		fill: transparent;
+		stroke: rgb(51, 51, 51);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.__aret_Kutusu_A0_Rectangle_15 {
+		position: absolute;
+		overflow: visible;
+		width: 22px;
+		height: 22px;
+		left: 0px;
+		top: 0px;
+	}
+	#AltKategori_A0_Group_11 {
+		opacity: 1;
+		position: absolute;
+		width: 75.077px;
+		height: 22px;
+		left: 0px;
+		top: 42px;
+		overflow: visible;
+	}
+	#_lkokul {
+		opacity: 1;
+		position: absolute;
+		left: 29.076px;
+		top: 0px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: visible;
+		width: 47px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		color: rgba(51,51,51,1);
+	}
+	#__aret_Kutusu_A0_Rectangle_16 {
+		opacity: 1;
+		fill: transparent;
+		stroke: rgb(51, 51, 51);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.__aret_Kutusu_A0_Rectangle_16 {
+		position: absolute;
+		overflow: visible;
+		width: 22px;
+		height: 22px;
+		left: 0px;
+		top: 0px;
+	}
+	#AltKategori_A0_Group_12 {
+		opacity: 1;
+		position: absolute;
+		width: 127.077px;
+		height: 22px;
+		left: 0px;
+		top: 84px;
+		overflow: visible;
+	}
+	#_lkokul__ncesi {
+		opacity: 1;
+		position: absolute;
+		left: 29.076px;
+		top: 0px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: visible;
+		width: 99px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		color: rgba(51,51,51,1);
+	}
+	#__aret_Kutusu_A0_Rectangle_17 {
+		opacity: 1;
+		fill: transparent;
+		stroke: rgb(51, 51, 51);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.__aret_Kutusu_A0_Rectangle_17 {
+		position: absolute;
+		overflow: visible;
+		width: 22px;
+		height: 22px;
+		left: 0px;
+		top: 0px;
+	}
+	#AltKategori_A0_Group_13 {
+		opacity: 1;
+		position: absolute;
+		width: 77.077px;
+		height: 22px;
+		left: 0px;
+		top: 126px;
+		overflow: visible;
+	}
+	#Kurslar {
+		opacity: 1;
+		position: absolute;
+		left: 29.076px;
+		top: 0px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: visible;
+		width: 49px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		color: rgba(51,51,51,1);
+	}
+	#__aret_Kutusu_A0_Rectangle_18 {
+		opacity: 1;
+		fill: transparent;
+		stroke: rgb(51, 51, 51);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.__aret_Kutusu_A0_Rectangle_18 {
+		position: absolute;
+		overflow: visible;
+		width: 22px;
+		height: 22px;
+		left: 0px;
+		top: 0px;
+	}
+	#AltKategori_A0_Group_14 {
+		opacity: 1;
+		position: absolute;
+		width: 73.077px;
+		height: 22px;
+		left: 0px;
+		top: 168px;
+		overflow: visible;
+	}
+	#Liseler {
+		opacity: 1;
+		position: absolute;
+		left: 29.076px;
+		top: 0px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: visible;
+		width: 45px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		color: rgba(51,51,51,1);
+	}
+	#__aret_Kutusu_A0_Rectangle_19 {
+		opacity: 1;
+		fill: transparent;
+		stroke: rgb(51, 51, 51);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.__aret_Kutusu_A0_Rectangle_19 {
+		position: absolute;
+		overflow: visible;
+		width: 22px;
+		height: 22px;
+		left: 0px;
+		top: 0px;
+	}
+	#AltKategori_A0_Group_15 {
+		opacity: 1;
+		position: absolute;
+		width: 117.077px;
+		height: 22px;
+		left: 0px;
+		top: 210px;
+		overflow: visible;
+	}
+	#_niversiteler {
+		opacity: 1;
+		position: absolute;
+		left: 29.076px;
+		top: 0px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: visible;
+		width: 89px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		color: rgba(51,51,51,1);
+	}
+	#__aret_Kutusu_A0_Rectangle_20 {
+		opacity: 1;
+		fill: transparent;
+		stroke: rgb(51, 51, 51);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.__aret_Kutusu_A0_Rectangle_20 {
+		position: absolute;
+		overflow: visible;
+		width: 22px;
+		height: 22px;
+		left: 0px;
+		top: 0px;
+	}
+	#Ba_l_k_A0_Group_16 {
+		opacity: 1;
+		position: absolute;
+		width: 204.249px;
+		height: 50px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#ArkaRenk_A0_Rectangle_21 {
+		opacity: 1;
+		fill: rgba(255,88,87,1);
+	}
+	.ArkaRenk_A0_Rectangle_21 {
+		position: absolute;
+		overflow: visible;
+		width: 204.25px;
+		height: 50px;
+		left: 0px;
+		top: 0px;
+	}
+	#E_itim_Alanlar_ {
+		opacity: 1;
+		position: absolute;
+		left: 19.93px;
+		top: 12px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: visible;
+		width: 128px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(255,255,255,1);
+	}
+	#AnaKategoriKutu_A0_Rectangle_22 {
+		opacity: 1;
+		fill: rgba(255,255,255,1);
+		stroke: rgb(222, 66, 66);
+		stroke-width: 2px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.AnaKategoriKutu_A0_Rectangle_22 {
+		position: absolute;
+		overflow: visible;
+		width: 21px;
+		height: 21px;
+		left: 170.15px;
+		top: 16px;
+	}
+	#Tarihi_Alanlar {
+		opacity: 1;
+		position: absolute;
+		width: 223.044px;
+		height: 333px;
+		left: 186.59px;
+		top: 1px;
+		overflow: visible;
+	}
+	#Kapat_c__A0_Rectangle_23 {
+		opacity: 1;
+		fill: rgba(247,247,247,1);
+	}
+	.Kapat_c__A0_Rectangle_23 {
+		position: absolute;
+		overflow: visible;
+		width: 222px;
+		height: 322px;
+		left: 0px;
+		top: 11px;
+	}
+	#AltKategori_A0_RepeatGrid_3 {
+		opacity: 1;
+		position: absolute;
+		width: 155.077px;
+		height: 241px;
+		left: 39.773px;
+		top: 62px;
+		overflow: hidden;
+	}
+	#AltKategori_A0_Group_18 {
+		opacity: 1;
+		position: absolute;
+		width: 75.077px;
+		height: 22px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#An_tlar {
+		opacity: 1;
+		position: absolute;
+		left: 29.076px;
+		top: 0px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: visible;
+		width: 47px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		color: rgba(51,51,51,1);
+	}
+	#__aret_Kutusu_A0_Rectangle_24 {
+		opacity: 1;
+		fill: transparent;
+		stroke: rgb(51, 51, 51);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.__aret_Kutusu_A0_Rectangle_24 {
+		position: absolute;
+		overflow: visible;
+		width: 22px;
+		height: 22px;
+		left: 0px;
+		top: 0px;
+	}
+	#AltKategori_A0_Group_19 {
+		opacity: 1;
+		position: absolute;
+		width: 86.077px;
+		height: 22px;
+		left: 0px;
+		top: 42px;
+		overflow: visible;
+	}
+	#M_zeler {
+		opacity: 1;
+		position: absolute;
+		left: 29.076px;
+		top: 0px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: visible;
+		width: 58px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		color: rgba(51,51,51,1);
+	}
+	#__aret_Kutusu_A0_Rectangle_25 {
+		opacity: 1;
+		fill: transparent;
+		stroke: rgb(51, 51, 51);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.__aret_Kutusu_A0_Rectangle_25 {
+		position: absolute;
+		overflow: visible;
+		width: 22px;
+		height: 22px;
+		left: 0px;
+		top: 0px;
+	}
+	#AltKategori_A0_Group_20 {
+		opacity: 1;
+		position: absolute;
+		width: 83.077px;
+		height: 22px;
+		left: 0px;
+		top: 84px;
+		overflow: visible;
+	}
+	#Sergiler {
+		opacity: 1;
+		position: absolute;
+		left: 29.076px;
+		top: 0px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: visible;
+		width: 55px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		color: rgba(51,51,51,1);
+	}
+	#__aret_Kutusu_A0_Rectangle_26 {
+		opacity: 1;
+		fill: transparent;
+		stroke: rgb(51, 51, 51);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.__aret_Kutusu_A0_Rectangle_26 {
+		position: absolute;
+		overflow: visible;
+		width: 22px;
+		height: 22px;
+		left: 0px;
+		top: 0px;
+	}
+	#AltKategori_A0_Group_21 {
+		opacity: 1;
+		position: absolute;
+		width: 98.077px;
+		height: 22px;
+		left: 0px;
+		top: 126px;
+		overflow: visible;
+	}
+	#Sinemalar {
+		opacity: 1;
+		position: absolute;
+		left: 29.076px;
+		top: 0px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: visible;
+		width: 70px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		color: rgba(51,51,51,1);
+	}
+	#__aret_Kutusu_A0_Rectangle_27 {
+		opacity: 1;
+		fill: transparent;
+		stroke: rgb(51, 51, 51);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.__aret_Kutusu_A0_Rectangle_27 {
+		position: absolute;
+		overflow: visible;
+		width: 22px;
+		height: 22px;
+		left: 0px;
+		top: 0px;
+	}
+	#AltKategori_A0_Group_22 {
+		opacity: 1;
+		position: absolute;
+		width: 95.077px;
+		height: 22px;
+		left: 0px;
+		top: 168px;
+		overflow: visible;
+	}
+	#Tiyatrolar {
+		opacity: 1;
+		position: absolute;
+		left: 29.076px;
+		top: 0px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: visible;
+		width: 67px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		color: rgba(51,51,51,1);
+	}
+	#__aret_Kutusu_A0_Rectangle_28 {
+		opacity: 1;
+		fill: transparent;
+		stroke: rgb(51, 51, 51);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.__aret_Kutusu_A0_Rectangle_28 {
+		position: absolute;
+		overflow: visible;
+		width: 22px;
+		height: 22px;
+		left: 0px;
+		top: 0px;
+	}
+	#AltKategori_A0_Group_23 {
+		opacity: 1;
+		position: absolute;
+		width: 148.077px;
+		height: 22px;
+		left: 0px;
+		top: 210px;
+		overflow: visible;
+	}
+	#Zanaat_At_lyeleri {
+		opacity: 1;
+		position: absolute;
+		left: 29.076px;
+		top: 0px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: visible;
+		width: 120px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		color: rgba(51,51,51,1);
+	}
+	#__aret_Kutusu_A0_Rectangle_29 {
+		opacity: 1;
+		fill: transparent;
+		stroke: rgb(51, 51, 51);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.__aret_Kutusu_A0_Rectangle_29 {
+		position: absolute;
+		overflow: visible;
+		width: 22px;
+		height: 22px;
+		left: 0px;
+		top: 0px;
+	}
+	#Ba_l_k_A0_Group_24 {
+		opacity: 1;
+		position: absolute;
+		width: 223.044px;
+		height: 50px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#ArkaRenk_A0_Rectangle_30 {
+		opacity: 1;
+		fill: rgba(10,177,77,1);
+	}
+	.ArkaRenk_A0_Rectangle_30 {
+		position: absolute;
+		overflow: visible;
+		width: 223.043px;
+		height: 50px;
+		left: 0px;
+		top: 0px;
+	}
+	#Tarihi_Alanlar_A0_Text_20 {
+		opacity: 1;
+		position: absolute;
+		left: 36.373px;
+		top: 12px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: visible;
+		width: 114px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(255,255,255,1);
+	}
+	#AnaKategoriKutu_A0_Rectangle_31 {
+		opacity: 1;
+		fill: rgba(255,255,255,1);
+		stroke: rgb(12, 158, 71);
+		stroke-width: 2px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.AnaKategoriKutu_A0_Rectangle_31 {
+		position: absolute;
+		overflow: visible;
+		width: 21px;
+		height: 21px;
+		left: 188.945px;
+		top: 16px;
+	}
+	#K_lt_rel_Alanlar {
+		opacity: 1;
+		position: absolute;
+		width: 204.241px;
+		height: 314px;
+		left: 1.098px;
+		top: 1px;
+		overflow: visible;
+	}
+	#Rectangle_1558_A0_Rectangle_32 {
+		opacity: 1;
+		fill: transparent;
+	}
+	.Rectangle_1558_A0_Rectangle_32 {
+		position: absolute;
+		overflow: visible;
+		width: 21px;
+		height: 22px;
+		left: 35.848px;
+		top: 115px;
+	}
+	#AltKategori_A0_RepeatGrid_4 {
+		opacity: 1;
+		position: absolute;
+		width: 155.077px;
+		height: 241px;
+		left: 23.031px;
+		top: 73px;
+		overflow: hidden;
+	}
+	#AltKategori_A0_Group_26 {
+		opacity: 1;
+		position: absolute;
+		width: 124.077px;
+		height: 22px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#K_t_phaneler {
+		opacity: 1;
+		position: absolute;
+		left: 29.076px;
+		top: 0px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: visible;
+		width: 96px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		color: rgba(51,51,51,1);
+	}
+	#__aret_Kutusu_A0_Rectangle_33 {
+		opacity: 1;
+		fill: transparent;
+		stroke: rgb(51, 51, 51);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.__aret_Kutusu_A0_Rectangle_33 {
+		position: absolute;
+		overflow: visible;
+		width: 22px;
+		height: 22px;
+		left: 0px;
+		top: 0px;
+	}
+	#AltKategori_A0_Group_27 {
+		opacity: 1;
+		position: absolute;
+		width: 135.077px;
+		height: 22px;
+		left: 0px;
+		top: 42px;
+		overflow: visible;
+	}
+	#Sanat_Galerileri {
+		opacity: 1;
+		position: absolute;
+		left: 29.076px;
+		top: 0px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: visible;
+		width: 107px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		color: rgba(51,51,51,1);
+	}
+	#__aret_Kutusu_A0_Rectangle_34 {
+		opacity: 1;
+		fill: transparent;
+		stroke: rgb(51, 51, 51);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.__aret_Kutusu_A0_Rectangle_34 {
+		position: absolute;
+		overflow: visible;
+		width: 22px;
+		height: 22px;
+		left: 0px;
+		top: 0px;
+	}
+	#AltKategori_A0_Group_28 {
+		opacity: 1;
+		position: absolute;
+		width: 83.077px;
+		height: 22px;
+		left: 0px;
+		top: 84px;
+		overflow: visible;
+	}
+	#Sergiler_A0_Text_23 {
+		opacity: 1;
+		position: absolute;
+		left: 29.076px;
+		top: 0px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: visible;
+		width: 55px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		color: rgba(51,51,51,1);
+	}
+	#__aret_Kutusu_A0_Rectangle_35 {
+		opacity: 1;
+		fill: transparent;
+		stroke: rgb(51, 51, 51);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.__aret_Kutusu_A0_Rectangle_35 {
+		position: absolute;
+		overflow: visible;
+		width: 22px;
+		height: 22px;
+		left: 0px;
+		top: 0px;
+	}
+	#AltKategori_A0_Group_29 {
+		opacity: 1;
+		position: absolute;
+		width: 98.077px;
+		height: 22px;
+		left: 0px;
+		top: 126px;
+		overflow: visible;
+	}
+	#Sinemalar_A0_Text_24 {
+		opacity: 1;
+		position: absolute;
+		left: 29.076px;
+		top: 0px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: visible;
+		width: 70px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		color: rgba(51,51,51,1);
+	}
+	#__aret_Kutusu_A0_Rectangle_36 {
+		opacity: 1;
+		fill: transparent;
+		stroke: rgb(51, 51, 51);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.__aret_Kutusu_A0_Rectangle_36 {
+		position: absolute;
+		overflow: visible;
+		width: 22px;
+		height: 22px;
+		left: 0px;
+		top: 0px;
+	}
+	#AltKategori_A0_Group_30 {
+		opacity: 1;
+		position: absolute;
+		width: 95.077px;
+		height: 22px;
+		left: 0px;
+		top: 168px;
+		overflow: visible;
+	}
+	#Tiyatrolar_A0_Text_25 {
+		opacity: 1;
+		position: absolute;
+		left: 29.076px;
+		top: 0px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: visible;
+		width: 67px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		color: rgba(51,51,51,1);
+	}
+	#__aret_Kutusu_A0_Rectangle_37 {
+		opacity: 1;
+		fill: transparent;
+		stroke: rgb(51, 51, 51);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.__aret_Kutusu_A0_Rectangle_37 {
+		position: absolute;
+		overflow: visible;
+		width: 22px;
+		height: 22px;
+		left: 0px;
+		top: 0px;
+	}
+	#AltKategori_A0_Group_31 {
+		opacity: 1;
+		position: absolute;
+		width: 148.077px;
+		height: 22px;
+		left: 0px;
+		top: 210px;
+		overflow: visible;
+	}
+	#Zanaat_At_lyeleri_A0_Text_26 {
+		opacity: 1;
+		position: absolute;
+		left: 29.076px;
+		top: 0px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: visible;
+		width: 120px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		color: rgba(51,51,51,1);
+	}
+	#__aret_Kutusu_A0_Rectangle_38 {
+		opacity: 1;
+		fill: transparent;
+		stroke: rgb(51, 51, 51);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.__aret_Kutusu_A0_Rectangle_38 {
+		position: absolute;
+		overflow: visible;
+		width: 22px;
+		height: 22px;
+		left: 0px;
+		top: 0px;
+	}
+	#Ba_l_k_A0_Group_32 {
+		opacity: 1;
+		position: absolute;
+		width: 204.241px;
+		height: 50px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#ArkaRenk_A0_Rectangle_39 {
+		opacity: 1;
+		fill: rgba(249,157,50,1);
+	}
+	.ArkaRenk_A0_Rectangle_39 {
+		position: absolute;
+		overflow: visible;
+		width: 204.242px;
+		height: 50px;
+		left: 0px;
+		top: 0px;
+	}
+	#K_lt_rel_Alanlar_A0_Text_27 {
+		opacity: 1;
+		position: absolute;
+		left: 21.184px;
+		top: 12px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: visible;
+		width: 136px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(255,255,255,1);
+	}
+	#AnaKategoriKutu_A0_Rectangle_40 {
+		opacity: 1;
+		fill: rgba(255,255,255,1);
+		stroke: rgb(220, 139, 44);
+		stroke-width: 2px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.AnaKategoriKutu_A0_Rectangle_40 {
+		position: absolute;
+		overflow: visible;
+		width: 21px;
+		height: 21px;
+		left: 170.143px;
+		top: 16px;
+	}
+	#araCubuk {
+		opacity: 1;
+		fill: transparent;
+		stroke: rgb(51, 51, 51);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.araCubuk {
+		overflow: visible;
+		position: absolute;
+		top: 0.5px;
+		left: 204.883px;
+		width: 1px;
+		height: 685px;
+	}
+	#Sokaklar {
+		opacity: 1;
+		position: absolute;
+		width: 353px;
+		height: 508px;
+		left: 903px;
+		top: 237px;
+		overflow: visible;
+	}
+	#E_ref_Efendi {
+		opacity: 1;
+		position: absolute;
+		width: 299px;
+		height: 453px;
+		left: 54px;
+		top: 55px;
+		overflow: visible;
+	}
+	#Ellipse_67 {
+		opacity: 1;
+		fill: transparent;
+	}
+	.Ellipse_67 {
+		position: absolute;
+		overflow: visible;
+		width: 23px;
+		height: 23px;
+		left: 276px;
+		top: 0px;
+	}
+	#Ellipse_68 {
+		opacity: 1;
+		fill: transparent;
+	}
+	.Ellipse_68 {
+		position: absolute;
+		overflow: visible;
+		width: 23px;
+		height: 23px;
+		left: 265px;
+		top: 23px;
+	}
+	#Ellipse_69 {
+		opacity: 1;
+		fill: transparent;
+	}
+	.Ellipse_69 {
+		position: absolute;
+		overflow: visible;
+		width: 23px;
+		height: 23px;
+		left: 249px;
+		top: 46px;
+	}
+	#Ellipse_70 {
+		opacity: 1;
+		fill: transparent;
+	}
+	.Ellipse_70 {
+		position: absolute;
+		overflow: visible;
+		width: 23px;
+		height: 23px;
+		left: 233px;
+		top: 69px;
+	}
+	#Ellipse_71 {
+		opacity: 1;
+		fill: transparent;
+	}
+	.Ellipse_71 {
+		position: absolute;
+		overflow: visible;
+		width: 23px;
+		height: 23px;
+		left: 222px;
+		top: 92px;
+	}
+	#Ellipse_72 {
+		opacity: 1;
+		fill: transparent;
+	}
+	.Ellipse_72 {
+		position: absolute;
+		overflow: visible;
+		width: 23px;
+		height: 23px;
+		left: 203px;
+		top: 124px;
+	}
+	#Ellipse_73 {
+		opacity: 1;
+		fill: transparent;
+	}
+	.Ellipse_73 {
+		position: absolute;
+		overflow: visible;
+		width: 23px;
+		height: 23px;
+		left: 192px;
+		top: 147px;
+	}
+	#Ellipse_74 {
+		opacity: 1;
+		fill: transparent;
+	}
+	.Ellipse_74 {
+		position: absolute;
+		overflow: visible;
+		width: 23px;
+		height: 23px;
+		left: 180px;
+		top: 165px;
+	}
+	#Ellipse_75 {
+		opacity: 1;
+		fill: transparent;
+	}
+	.Ellipse_75 {
+		position: absolute;
+		overflow: visible;
+		width: 23px;
+		height: 23px;
+		left: 169px;
+		top: 188px;
+	}
+	#Ellipse_76 {
+		opacity: 1;
+		fill: transparent;
+	}
+	.Ellipse_76 {
+		position: absolute;
+		overflow: visible;
+		width: 23px;
+		height: 23px;
+		left: 153px;
+		top: 211px;
+	}
+	#Ellipse_77 {
+		opacity: 1;
+		fill: transparent;
+	}
+	.Ellipse_77 {
+		position: absolute;
+		overflow: visible;
+		width: 23px;
+		height: 23px;
+		left: 135px;
+		top: 239px;
+	}
+	#Ellipse_78 {
+		opacity: 1;
+		fill: transparent;
+	}
+	.Ellipse_78 {
+		position: absolute;
+		overflow: visible;
+		width: 23px;
+		height: 23px;
+		left: 119px;
+		top: 262px;
+	}
+	#Ellipse_79 {
+		opacity: 1;
+		fill: transparent;
+	}
+	.Ellipse_79 {
+		position: absolute;
+		overflow: visible;
+		width: 23px;
+		height: 23px;
+		left: 108px;
+		top: 285px;
+	}
+	#Ellipse_80 {
+		opacity: 1;
+		fill: transparent;
+	}
+	.Ellipse_80 {
+		position: absolute;
+		overflow: visible;
+		width: 23px;
+		height: 23px;
+		left: 91px;
+		top: 308px;
+	}
+	#Ellipse_81 {
+		opacity: 1;
+		fill: transparent;
+	}
+	.Ellipse_81 {
+		position: absolute;
+		overflow: visible;
+		width: 23px;
+		height: 23px;
+		left: 75px;
+		top: 324px;
+	}
+	#Ellipse_82 {
+		opacity: 1;
+		fill: transparent;
+	}
+	.Ellipse_82 {
+		position: absolute;
+		overflow: visible;
+		width: 23px;
+		height: 23px;
+		left: 52px;
+		top: 347px;
+	}
+	#Ellipse_83 {
+		opacity: 1;
+		fill: transparent;
+	}
+	.Ellipse_83 {
+		position: absolute;
+		overflow: visible;
+		width: 23px;
+		height: 23px;
+		left: 41px;
+		top: 370px;
+	}
+	#Ellipse_84 {
+		opacity: 1;
+		fill: transparent;
+	}
+	.Ellipse_84 {
+		position: absolute;
+		overflow: visible;
+		width: 23px;
+		height: 23px;
+		left: 27px;
+		top: 388px;
+	}
+	#Ellipse_85 {
+		opacity: 1;
+		fill: transparent;
+	}
+	.Ellipse_85 {
+		position: absolute;
+		overflow: visible;
+		width: 23px;
+		height: 23px;
+		left: 16px;
+		top: 407px;
+	}
+	#Ellipse_86 {
+		opacity: 1;
+		fill: transparent;
+	}
+	.Ellipse_86 {
+		position: absolute;
+		overflow: visible;
+		width: 23px;
+		height: 23px;
+		left: 0px;
+		top: 430px;
+	}
+	#Baysungur {
+		opacity: 1;
+		position: absolute;
+		width: 288px;
+		height: 439px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Baysungur_click {
+		opacity: 1;
+		fill: transparent;
+	}
+	.Baysungur_click {
+		position: absolute;
+		overflow: visible;
+		width: 23px;
+		height: 23px;
+		left: 0px;
+		top: 416px;
+	}
+	#Baysungur_click_A0_Ellipse_22 {
+		opacity: 1;
+		fill: transparent;
+	}
+	.Baysungur_click_A0_Ellipse_22 {
+		position: absolute;
+		overflow: visible;
+		width: 23px;
+		height: 23px;
+		left: 12px;
+		top: 398px;
+	}
+	#Baysungur_click_A0_Ellipse_23 {
+		opacity: 1;
+		fill: transparent;
+	}
+	.Baysungur_click_A0_Ellipse_23 {
+		position: absolute;
+		overflow: visible;
+		width: 23px;
+		height: 23px;
+		left: 24px;
+		top: 378px;
+	}
+	#Baysungur_click_A0_Ellipse_24 {
+		opacity: 1;
+		fill: transparent;
+	}
+	.Baysungur_click_A0_Ellipse_24 {
+		position: absolute;
+		overflow: visible;
+		width: 23px;
+		height: 23px;
+		left: 52px;
+		top: 346px;
+	}
+	#Baysungur_click_A0_Ellipse_25 {
+		opacity: 1;
+		fill: transparent;
+	}
+	.Baysungur_click_A0_Ellipse_25 {
+		position: absolute;
+		overflow: visible;
+		width: 23px;
+		height: 23px;
+		left: 64px;
+		top: 328px;
+	}
+	#Baysungur_click_A0_Ellipse_26 {
+		opacity: 1;
+		fill: transparent;
+	}
+	.Baysungur_click_A0_Ellipse_26 {
+		position: absolute;
+		overflow: visible;
+		width: 23px;
+		height: 23px;
+		left: 76px;
+		top: 309px;
+	}
+	#Baysungur_click_A0_Ellipse_27 {
+		opacity: 1;
+		fill: transparent;
+	}
+	.Baysungur_click_A0_Ellipse_27 {
+		position: absolute;
+		overflow: visible;
+		width: 23px;
+		height: 23px;
+		left: 88px;
+		top: 286px;
+	}
+	#Baysungur_click_A0_Ellipse_28 {
+		opacity: 1;
+		fill: transparent;
+	}
+	.Baysungur_click_A0_Ellipse_28 {
+		position: absolute;
+		overflow: visible;
+		width: 23px;
+		height: 23px;
+		left: 104px;
+		top: 267px;
+	}
+	#Baysungur_click_A0_Ellipse_29 {
+		opacity: 1;
+		fill: transparent;
+	}
+	.Baysungur_click_A0_Ellipse_29 {
+		position: absolute;
+		overflow: visible;
+		width: 23px;
+		height: 23px;
+		left: 116px;
+		top: 251px;
+	}
+	#Baysungur_click_A0_Ellipse_30 {
+		opacity: 1;
+		fill: transparent;
+	}
+	.Baysungur_click_A0_Ellipse_30 {
+		position: absolute;
+		overflow: visible;
+		width: 23px;
+		height: 23px;
+		left: 132px;
+		top: 222px;
+	}
+	#Baysungur_click_A0_Ellipse_31 {
+		opacity: 1;
+		fill: transparent;
+	}
+	.Baysungur_click_A0_Ellipse_31 {
+		position: absolute;
+		overflow: visible;
+		width: 23px;
+		height: 23px;
+		left: 144px;
+		top: 202px;
+	}
+	#Baysungur_click_A0_Ellipse_32 {
+		opacity: 1;
+		fill: transparent;
+	}
+	.Baysungur_click_A0_Ellipse_32 {
+		position: absolute;
+		overflow: visible;
+		width: 23px;
+		height: 23px;
+		left: 156px;
+		top: 186px;
+	}
+	#Baysungur_click_A0_Ellipse_33 {
+		opacity: 1;
+		fill: transparent;
+	}
+	.Baysungur_click_A0_Ellipse_33 {
+		position: absolute;
+		overflow: visible;
+		width: 23px;
+		height: 23px;
+		left: 167px;
+		top: 170px;
+	}
+	#Baysungur_click_A0_Ellipse_34 {
+		opacity: 1;
+		fill: transparent;
+	}
+	.Baysungur_click_A0_Ellipse_34 {
+		position: absolute;
+		overflow: visible;
+		width: 23px;
+		height: 23px;
+		left: 175px;
+		top: 155px;
+	}
+	#Baysungur_click_A0_Ellipse_35 {
+		opacity: 1;
+		fill: transparent;
+	}
+	.Baysungur_click_A0_Ellipse_35 {
+		position: absolute;
+		overflow: visible;
+		width: 23px;
+		height: 23px;
+		left: 187px;
+		top: 139px;
+	}
+	#Baysungur_click_A0_Ellipse_36 {
+		opacity: 1;
+		fill: transparent;
+	}
+	.Baysungur_click_A0_Ellipse_36 {
+		position: absolute;
+		overflow: visible;
+		width: 23px;
+		height: 23px;
+		left: 190px;
+		top: 128px;
+	}
+	#Baysungur_click_A0_Ellipse_37 {
+		opacity: 1;
+		fill: transparent;
+	}
+	.Baysungur_click_A0_Ellipse_37 {
+		position: absolute;
+		overflow: visible;
+		width: 23px;
+		height: 23px;
+		left: 210px;
+		top: 101px;
+	}
+	#Baysungur_click_A0_Ellipse_38 {
+		opacity: 1;
+		fill: transparent;
+	}
+	.Baysungur_click_A0_Ellipse_38 {
+		position: absolute;
+		overflow: visible;
+		width: 23px;
+		height: 23px;
+		left: 222px;
+		top: 83px;
+	}
+	#Baysungur_click_A0_Ellipse_39 {
+		opacity: 1;
+		fill: transparent;
+	}
+	.Baysungur_click_A0_Ellipse_39 {
+		position: absolute;
+		overflow: visible;
+		width: 23px;
+		height: 23px;
+		left: 234px;
+		top: 64px;
+	}
+	#Baysungur_click_A0_Ellipse_40 {
+		opacity: 1;
+		fill: transparent;
+	}
+	.Baysungur_click_A0_Ellipse_40 {
+		position: absolute;
+		overflow: visible;
+		width: 23px;
+		height: 23px;
+		left: 245px;
+		top: 41px;
+	}
+	#Baysungur_click_A0_Ellipse_41 {
+		opacity: 1;
+		fill: transparent;
+	}
+	.Baysungur_click_A0_Ellipse_41 {
+		position: absolute;
+		overflow: visible;
+		width: 23px;
+		height: 23px;
+		left: 257px;
+		top: 23px;
+	}
+	#Baysungur_click_A0_Ellipse_42 {
+		opacity: 1;
+		fill: transparent;
+	}
+	.Baysungur_click_A0_Ellipse_42 {
+		position: absolute;
+		overflow: visible;
+		width: 23px;
+		height: 23px;
+		left: 265px;
+		top: 0px;
+	}
+	#Timeline {
+		opacity: 1;
+		position: absolute;
+		width: 1920px;
+		height: 112px;
+		left: 0px;
+		top: 61px;
+		overflow: visible;
+	}
+	#Harita_info {
+		opacity: 1;
+		position: absolute;
+		width: 442.261px;
+		height: 36px;
+		left: 1477.738px;
+		top: 109px;
+		overflow: visible;
+	}
+	#Rectangle_1575 {
+		opacity: 1;
+		fill: rgba(255,255,255,1);
+		stroke: rgb(112, 112, 112);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_1575 {
+		position: absolute;
+		overflow: visible;
+		width: 442.262px;
+		height: 36px;
+		left: 0px;
+		top: 0px;
+	}
+	#ID1922_Plan_d_Ensemble_de_la_v {
+		opacity: 1;
+		position: absolute;
+		left: 13px;
+		top: 8px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: visible;
+		width: 417px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		color: rgba(0,0,0,1);
+	}
+	#Rectangle_1569 {
+		opacity: 1;
+		fill: rgba(255,255,255,1);
+		stroke: rgb(112, 112, 112);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_1569 {
 		position: absolute;
 		overflow: visible;
 		width: 1920px;
-		height: 1080px;
+		height: 112px;
 		left: 0px;
 		top: 0px;
-		transform: rotate(90deg);
-		transform-origin: left;
 	}
-	#IstanbulKulturHaritasiText {
+	#Zaman__izelgesi {
 		opacity: 1;
 		position: absolute;
-		left: 135px;
-		top: 119px;
+		left: 92px;
+		top: 51px;
 		box-sizing: border-box;
 		margin: 0;
 		padding: 0;
 		overflow: visible;
-		width: 558px;
+		width: 180px;
 		white-space: nowrap;
 		text-align: left;
 		font-family: Segoe UI;
 		font-style: normal;
-		font-weight: bold;
-		font-size: 80px;
-		color: rgba(255,255,255,1);
+		font-weight: normal;
+		font-size: 25px;
+		color: rgba(0,0,0,1);
 	}
-	#GoToMap {
+	#Timeline_icon {
 		opacity: 1;
 		position: absolute;
-		left: 135px;
-		top: 922px;
+		width: 39.196px;
+		height: 36.5px;
+		left: 33.971px;
+		top: 51px;
+		overflow: visible;
+	}
+	#Path_118 {
+		opacity: 1;
+		fill: rgba(0,0,0,1);
+	}
+	.Path_118 {
+		transform: matrix(1,0,0,1,0,0);
+		overflow: visible;
+		position: absolute;
+		top: 0px;
+		left: 2.697px;
+		width: 36.5px;
+		height: 36.5px;
+	}
+	#Path_119 {
+		opacity: 1;
+		fill: rgba(0,0,0,1);
+	}
+	.Path_119 {
+		transform: matrix(1,0,0,1,0,0);
+		overflow: visible;
+		position: absolute;
+		top: 9.404px;
+		left: 18.678px;
+		width: 2.908px;
+		height: 11.404px;
+	}
+	#Path_120 {
+		opacity: 1;
+		fill: rgba(0,0,0,1);
+	}
+	.Path_120 {
+		transform: matrix(1,0,0,1,0,0);
+		overflow: visible;
+		position: absolute;
+		top: 17.898px;
+		left: 18.988px;
+		width: 10.803px;
+		height: 2.908px;
+	}
+	#Path_117 {
+		opacity: 1;
+		fill: rgba(0,0,0,1);
+	}
+	.Path_117 {
+		transform: matrix(1,0,0,1,0,0);
+		overflow: visible;
+		position: absolute;
+		top: 17.678px;
+		left: 0px;
+		width: 10.008px;
+		height: 6.512px;
+	}
+	#Line_2 {
+		opacity: 1;
+		fill: transparent;
+		stroke: rgb(51, 51, 51);
+		stroke-width: 3px;
+		stroke-linejoin: miter;
+		stroke-linecap: round;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Line_2 {
+		overflow: visible;
+		position: absolute;
+		top: 77.5px;
+		left: 321.5px;
+		width: 1072px;
+		height: 3px;
+	}
+	#Opakl_k {
+		opacity: 1;
+		position: absolute;
+		left: 1511px;
+		top: 51px;
 		box-sizing: border-box;
 		margin: 0;
 		padding: 0;
 		overflow: visible;
-		width: 223px;
+		width: 84px;
 		white-space: nowrap;
-		
-		}
-	.astext {
-    background:none;
-    border:none;
-    margin:0;
-    padding:0;
-    cursor: pointer;
-	text-align: center;
+		text-align: left;
 		font-family: Segoe UI;
 		font-style: normal;
 		font-weight: normal;
-		font-size: 36px;
-		color: rgba(255,255,255,1);
+		font-size: 25px;
+		color: rgba(217,217,217,1);
 	}
-	#downArrow {
+	#Line_3 {
 		opacity: 1;
-		fill: url(#downArrow_A61_Rectangle_3_pattern);
+		fill: transparent;
+		stroke: rgb(217, 217, 217);
+		stroke-width: 3px;
+		stroke-linejoin: miter;
+		stroke-linecap: round;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
 	}
-	.downArrow {
+	.Line_3 {
+		overflow: visible;
+		position: absolute;
+		top: 77.5px;
+		left: 1615.5px;
+		width: 164px;
+		height: 3px;
+	}
+	#Y_zde {
+		opacity: 1;
+		position: absolute;
+		left: 1806px;
+		top: 53px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: visible;
+		width: 62px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 25px;
+		color: rgba(217,217,217,1);
+	}
+	#Line_4 {
+		opacity: 1;
+		fill: transparent;
+		stroke: rgb(217, 217, 217);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Line_4 {
+		overflow: visible;
+		position: absolute;
+		top: 86.5px;
+		left: 1806.5px;
+		width: 61px;
+		height: 1px;
+	}
+	#Ellipse_87 {
+		opacity: 1;
+		fill: rgba(255,255,255,1);
+		stroke: rgb(217, 217, 217);
+		stroke-width: 3px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Ellipse_87 {
 		position: absolute;
 		overflow: visible;
-		width: 33px;
-		height: 24px;
-		left: 336px;
-		top: 939px;
-		transform: scaleY (1);
+		width: 21px;
+		height: 21px;
+		left: 1756px;
+		top: 67px;
+	}
+	#Y_l_butonu {
+		opacity: 1;
+		position: absolute;
+		width: 68.643px;
+		height: 43.903px;
+		left: 1340.357px;
+		top: 33.238px;
+		overflow: visible;
+	}
+	#Rectangle_1573 {
+		opacity: 1;
+		fill: rgba(255,255,255,1);
+		stroke: rgb(51, 51, 51);
+		stroke-width: 3px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_1573 {
+		position: absolute;
+		overflow: visible;
+		width: 37.506px;
+		height: 37.508px;
+		left: 15.568px;
+		top: 6.396px;
+		transform: rotate(-45deg);
 		transform-origin: left;
 	}
-	#istanbul {
-		opacity: 0.79;
-		fill: url(#istanbul_A61_Rectangle_5_pattern);
+	#Rectangle_1572 {
+		opacity: 1;
+		fill: rgba(255,255,255,1);
+		stroke: rgb(51, 51, 51);
+		stroke-width: 3px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
 	}
-	.istanbul {
+	.Rectangle_1572 {
 		position: absolute;
 		overflow: visible;
-		width: 1086px;
-		height: 1080px;
-		left: 834px;
+		width: 68.643px;
+		height: 32.762px;
+		left: 0px;
 		top: 0px;
 	}
-	#MainText {
+	#Rectangle_1574 {
+		opacity: 1;
+		fill: rgba(255,255,255,1);
+	}
+	.Rectangle_1574 {
+		position: absolute;
+		overflow: visible;
+		width: 30.096px;
+		height: 30.094px;
+		left: 19.461px;
+		top: 10.291px;
+		transform: rotate(-45deg);
+		transform-origin: left;
+	}
+	#ID2019 {
 		opacity: 1;
 		position: absolute;
-		left: 135px;
-		top: 530px;
+		left: 16.643px;
+		top: 4.762px;
 		box-sizing: border-box;
 		margin: 0;
 		padding: 0;
-		overflow: hidden;
-		width: 675px;
-		height: 192px;
+		overflow: visible;
+		width: 36px;
+		white-space: nowrap;
 		text-align: left;
 		font-family: Segoe UI;
 		font-style: normal;
 		font-weight: normal;
-		font-size: 28px;
+		font-size: 16px;
+		color: rgba(0,0,0,1);
+	}
+	#_st_Grup {
+		opacity: 1;
+		position: absolute;
+		width: 1920px;
+		height: 81px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Rectangle_1466 {
+		opacity: 1;
+		fill: rgba(51,51,51,1);
+	}
+	.Rectangle_1466 {
+		position: absolute;
+		overflow: visible;
+		width: 1920px;
+		height: 81px;
+		left: 0px;
+		top: 0px;
+	}
+	#Search_bar {
+		opacity: 1;
+		position: absolute;
+		width: 260px;
+		height: 40px;
+		left: 1278px;
+		top: 21.988px;
+		overflow: visible;
+	}
+	#Yazma_alan_ {
+		opacity: 1;
+		position: absolute;
+		width: 260px;
+		height: 40px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Yazma_alan__A0_Rectangle_47 {
+		opacity: 1;
+		fill: rgba(247,247,247,1);
+	}
+	.Yazma_alan__A0_Rectangle_47 {
+		position: absolute;
+		overflow: visible;
+		width: 260px;
+		height: 40px;
+		left: 0px;
+		top: 0px;
+	}
+	#Haritada_ara {
+		opacity: 1;
+		position: absolute;
+		left: 12px;
+		top: 6.992px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: visible;
+		width: 98px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 18px;
+		color: rgba(51,51,51,1);
+	}
+	#Group_25 {
+		opacity: 1;
+		position: absolute;
+		width: 125.961px;
+		height: 33px;
+		left: 1633.039px;
+		top: 25px;
+		overflow: visible;
+	}
+	#Filtreler {
+		opacity: 1;
+		position: absolute;
+		left: 43.961px;
+		top: 0px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: visible;
+		width: 83px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 25px;
 		color: rgba(255,255,255,1);
+	}
+	#Filter {
+		opacity: 1;
+		position: absolute;
+		width: 30.452px;
+		height: 23.818px;
+		left: 0px;
+		top: 4.332px;
+		overflow: visible;
+	}
+	#Path_112 {
+		opacity: 1;
+		fill: rgba(255,255,255,1);
+	}
+	.Path_112 {
+		transform: matrix(1,0,0,1,0,0);
+		overflow: visible;
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		width: 30.451px;
+		height: 23.818px;
+	}
+	#info {
+		opacity: 1;
+		position: absolute;
+		width: 28.432px;
+		height: 28.432px;
+		left: 1865px;
+		top: 27px;
+		overflow: visible;
+	}
+	#Group_24 {
+		opacity: 1;
+		position: absolute;
+		width: 28.432px;
+		height: 28.432px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Path_115 {
+		opacity: 1;
+		fill: rgba(255,255,255,1);
+	}
+	.Path_115 {
+		transform: matrix(1,0,0,1,0,0);
+		overflow: visible;
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		width: 28.432px;
+		height: 28.432px;
 	}
 </style>
 </head>
 <body>
-<div id="MainPage">
-	<svg class="Rectangle_1512">
-		<rect id="Rectangle_1512" rx="0" ry="0" x="-541" y="-1380" width="1080" height="1920">
-		</rect>
-	</svg>
-	<div id="IstanbulKulturHaritasiText">
-		<span style="">İstanbul Kültür <br/></span><span style="font-size:79px;">Haritası</span>
-	</div>
-	<div id="GoToMap">
-		<button class="astext">Haritaya Git</button>
-	</div>
-	<svg class="downArrow">
-		<pattern elementId="downArrow_A61_Rectangle_3" id="downArrow_A61_Rectangle_3_pattern" x="0" y="0" width="100%" height="100%">
-			<image x="0" y="0" width="100%" height="100%" href="downArrow_A61_Rectangle_3_pattern.png" xlink:href="downArrow_A61_Rectangle_3_pattern.png"></image>
+<div id="Harita_Ana_Sayfa">
+	<svg class="Harita">
+		<pattern elementId="Harita_A0_Rectangle_2" id="Harita_A0_Rectangle_2_pattern" x="0" y="0" width="100%" height="100%">
+			<image x="0" y="0" width="100%" height="100%" href="Harita_A0_Rectangle_2_pattern.png" xlink:href="Harita_A0_Rectangle_2_pattern.png"></image>
 		</pattern>
-		<rect id="downArrow" rx="0" ry="0" x="60" y="0" width="33" height="24">
+		<rect id="Harita" rx="0" ry="0" x="0" y="0" width="2254" height="1061">
 		</rect>
 	</svg>
-	<svg class="istanbul">
-		<pattern elementId="istanbul_A61_Rectangle_5" id="istanbul_A61_Rectangle_5_pattern" x="0" y="0" width="100%" height="100%">
-			<image x="0" y="0" width="100%" height="100%" href="istanbul_A61_Rectangle_5_pattern.png" xlink:href="istanbul_A61_Rectangle_5_pattern.png"></image>
-		</pattern>
-		<rect id="istanbul" rx="0" ry="0" x="0" y="0" width="1086" height="1080">
-		</rect>
-	</svg>
-	<div id="MainText">
-		<span>Bu harita kültürel hafızayı korumak ve bilgiyi bir çatı altında toplamak amacıyla kurulmuştur. İstanbul Kültür Haritası, öncelikle Kurtuluş'tan başlayacak. Daha sonra tüm İstanbul'u kapsaması amaçlanan bu proje katılımcılarıyla büyüyecek.</span>
+	<div id="Kategoriler">
+		<svg class="Background">
+			<rect id="Background" rx="0" ry="0" x="0" y="0" width="410.68" height="686">
+			</rect>
+		</svg>
+		<div id="Topluluk_Alanlar_">
+			<svg class="Kapat_c_">
+				<rect id="Kapat_c_" rx="0" ry="0" x="0" y="0" width="222" height="279">
+				</rect>
+			</svg>
+			<svg class="Rectangle_1558">
+				<rect id="Rectangle_1558" rx="0" ry="0" x="0" y="0" width="21" height="22">
+				</rect>
+			</svg>
+			<div id="AltKategori">
+				<div id="AltKategori_A0_Group_3">
+					<div id="Dernekler">
+						<span>Dernekler</span>
+					</div>
+					<svg class="__aret_Kutusu">
+						<rect id="__aret_Kutusu" rx="0" ry="0" x="0" y="0" width="22" height="22">
+						</rect>
+					</svg>
+				</div>
+				<div id="AltKategori_A0_Group_4">
+					<div id="Devlet_Binalar_">
+						<span>Devlet Binaları</span>
+					</div>
+					<svg class="__aret_Kutusu_A0_Rectangle_7">
+						<rect id="__aret_Kutusu_A0_Rectangle_7" rx="0" ry="0" x="0" y="0" width="22" height="22">
+						</rect>
+					</svg>
+				</div>
+				<div id="AltKategori_A0_Group_5">
+					<div id="Dini_Alanlar">
+						<span>Dini Alanlar</span>
+					</div>
+					<svg class="__aret_Kutusu_A0_Rectangle_8">
+						<rect id="__aret_Kutusu_A0_Rectangle_8" rx="0" ry="0" x="0" y="0" width="22" height="22">
+						</rect>
+					</svg>
+				</div>
+				<div id="AltKategori_A0_Group_6">
+					<div id="Konsolosluklar">
+						<span>Konsolosluklar</span>
+					</div>
+					<svg class="__aret_Kutusu_A0_Rectangle_9">
+						<rect id="__aret_Kutusu_A0_Rectangle_9" rx="0" ry="0" x="0" y="0" width="22" height="22">
+						</rect>
+					</svg>
+				</div>
+				<div id="AltKategori_A0_Group_7">
+					<div id="Kul_pler">
+						<span>Kulüpler</span>
+					</div>
+					<svg class="__aret_Kutusu_A0_Rectangle_10">
+						<rect id="__aret_Kutusu_A0_Rectangle_10" rx="0" ry="0" x="0" y="0" width="22" height="22">
+						</rect>
+					</svg>
+				</div>
+			</div>
+			<div id="Ba_l_k">
+				<svg class="ArkaRenk">
+					<rect id="ArkaRenk" rx="0" ry="0" x="0" y="0" width="223.102" height="50">
+					</rect>
+				</svg>
+				<div id="Topluluk_Alanlar__A0_Text_6">
+					<span>Topluluk Alanları</span>
+				</div>
+				<svg class="AnaKategoriKutu">
+					<rect id="AnaKategoriKutu" rx="0" ry="0" x="0" y="0" width="21" height="21">
+					</rect>
+				</svg>
+			</div>
+		</div>
+		<div id="E_itim">
+			<svg class="Kapat_c__A0_Rectangle_13">
+				<rect id="Kapat_c__A0_Rectangle_13" rx="0" ry="0" x="0" y="0" width="204.249" height="332">
+				</rect>
+			</svg>
+			<svg class="Rectangle_1558_A0_Rectangle_14">
+				<rect id="Rectangle_1558_A0_Rectangle_14" rx="0" ry="0" x="0" y="0" width="21" height="22">
+				</rect>
+			</svg>
+			<div id="AltKategori_A0_RepeatGrid_2">
+				<div id="AltKategori_A0_Group_10">
+					<div id="E_itim_At_lyeleri">
+						<span>Eğitim Atölyeleri</span>
+					</div>
+					<svg class="__aret_Kutusu_A0_Rectangle_15">
+						<rect id="__aret_Kutusu_A0_Rectangle_15" rx="0" ry="0" x="0" y="0" width="22" height="22">
+						</rect>
+					</svg>
+				</div>
+				<div id="AltKategori_A0_Group_11">
+					<div id="_lkokul">
+						<span>İlkokul</span>
+					</div>
+					<svg class="__aret_Kutusu_A0_Rectangle_16">
+						<rect id="__aret_Kutusu_A0_Rectangle_16" rx="0" ry="0" x="0" y="0" width="22" height="22">
+						</rect>
+					</svg>
+				</div>
+				<div id="AltKategori_A0_Group_12">
+					<div id="_lkokul__ncesi">
+						<span>İlkokul Öncesi</span>
+					</div>
+					<svg class="__aret_Kutusu_A0_Rectangle_17">
+						<rect id="__aret_Kutusu_A0_Rectangle_17" rx="0" ry="0" x="0" y="0" width="22" height="22">
+						</rect>
+					</svg>
+				</div>
+				<div id="AltKategori_A0_Group_13">
+					<div id="Kurslar">
+						<span>Kurslar</span>
+					</div>
+					<svg class="__aret_Kutusu_A0_Rectangle_18">
+						<rect id="__aret_Kutusu_A0_Rectangle_18" rx="0" ry="0" x="0" y="0" width="22" height="22">
+						</rect>
+					</svg>
+				</div>
+				<div id="AltKategori_A0_Group_14">
+					<div id="Liseler">
+						<span>Liseler</span>
+					</div>
+					<svg class="__aret_Kutusu_A0_Rectangle_19">
+						<rect id="__aret_Kutusu_A0_Rectangle_19" rx="0" ry="0" x="0" y="0" width="22" height="22">
+						</rect>
+					</svg>
+				</div>
+				<div id="AltKategori_A0_Group_15">
+					<div id="_niversiteler">
+						<span>Üniversiteler</span>
+					</div>
+					<svg class="__aret_Kutusu_A0_Rectangle_20">
+						<rect id="__aret_Kutusu_A0_Rectangle_20" rx="0" ry="0" x="0" y="0" width="22" height="22">
+						</rect>
+					</svg>
+				</div>
+			</div>
+			<div id="Ba_l_k_A0_Group_16">
+				<svg class="ArkaRenk_A0_Rectangle_21">
+					<rect id="ArkaRenk_A0_Rectangle_21" rx="0" ry="0" x="0" y="0" width="204.249" height="50">
+					</rect>
+				</svg>
+				<div id="E_itim_Alanlar_">
+					<span>Eğitim Alanları</span>
+				</div>
+				<svg class="AnaKategoriKutu_A0_Rectangle_22">
+					<rect id="AnaKategoriKutu_A0_Rectangle_22" rx="0" ry="0" x="0" y="0" width="21" height="21">
+					</rect>
+				</svg>
+			</div>
+		</div>
+		<div id="Tarihi_Alanlar">
+			<svg class="Kapat_c__A0_Rectangle_23">
+				<rect id="Kapat_c__A0_Rectangle_23" rx="0" ry="0" x="0" y="0" width="222" height="322">
+				</rect>
+			</svg>
+			<div id="AltKategori_A0_RepeatGrid_3">
+				<div id="AltKategori_A0_Group_18">
+					<div id="An_tlar">
+						<span>Anıtlar</span>
+					</div>
+					<svg class="__aret_Kutusu_A0_Rectangle_24">
+						<rect id="__aret_Kutusu_A0_Rectangle_24" rx="0" ry="0" x="0" y="0" width="22" height="22">
+						</rect>
+					</svg>
+				</div>
+				<div id="AltKategori_A0_Group_19">
+					<div id="M_zeler">
+						<span>Müzeler</span>
+					</div>
+					<svg class="__aret_Kutusu_A0_Rectangle_25">
+						<rect id="__aret_Kutusu_A0_Rectangle_25" rx="0" ry="0" x="0" y="0" width="22" height="22">
+						</rect>
+					</svg>
+				</div>
+				<div id="AltKategori_A0_Group_20">
+					<div id="Sergiler">
+						<span>Sergiler</span>
+					</div>
+					<svg class="__aret_Kutusu_A0_Rectangle_26">
+						<rect id="__aret_Kutusu_A0_Rectangle_26" rx="0" ry="0" x="0" y="0" width="22" height="22">
+						</rect>
+					</svg>
+				</div>
+				<div id="AltKategori_A0_Group_21">
+					<div id="Sinemalar">
+						<span>Sinemalar</span>
+					</div>
+					<svg class="__aret_Kutusu_A0_Rectangle_27">
+						<rect id="__aret_Kutusu_A0_Rectangle_27" rx="0" ry="0" x="0" y="0" width="22" height="22">
+						</rect>
+					</svg>
+				</div>
+				<div id="AltKategori_A0_Group_22">
+					<div id="Tiyatrolar">
+						<span>Tiyatrolar</span>
+					</div>
+					<svg class="__aret_Kutusu_A0_Rectangle_28">
+						<rect id="__aret_Kutusu_A0_Rectangle_28" rx="0" ry="0" x="0" y="0" width="22" height="22">
+						</rect>
+					</svg>
+				</div>
+				<div id="AltKategori_A0_Group_23">
+					<div id="Zanaat_At_lyeleri">
+						<span>Zanaat Atölyeleri</span>
+					</div>
+					<svg class="__aret_Kutusu_A0_Rectangle_29">
+						<rect id="__aret_Kutusu_A0_Rectangle_29" rx="0" ry="0" x="0" y="0" width="22" height="22">
+						</rect>
+					</svg>
+				</div>
+			</div>
+			<div id="Ba_l_k_A0_Group_24">
+				<svg class="ArkaRenk_A0_Rectangle_30">
+					<rect id="ArkaRenk_A0_Rectangle_30" rx="0" ry="0" x="0" y="0" width="223.044" height="50">
+					</rect>
+				</svg>
+				<div id="Tarihi_Alanlar_A0_Text_20">
+					<span>Tarihi Alanlar</span>
+				</div>
+				<svg class="AnaKategoriKutu_A0_Rectangle_31">
+					<rect id="AnaKategoriKutu_A0_Rectangle_31" rx="0" ry="0" x="0" y="0" width="21" height="21">
+					</rect>
+				</svg>
+			</div>
+		</div>
+		<div id="K_lt_rel_Alanlar">
+			<svg class="Rectangle_1558_A0_Rectangle_32">
+				<rect id="Rectangle_1558_A0_Rectangle_32" rx="0" ry="0" x="0" y="0" width="21" height="22">
+				</rect>
+			</svg>
+			<div id="AltKategori_A0_RepeatGrid_4">
+				<div id="AltKategori_A0_Group_26">
+					<div id="K_t_phaneler">
+						<span>Kütüphaneler</span>
+					</div>
+					<svg class="__aret_Kutusu_A0_Rectangle_33">
+						<rect id="__aret_Kutusu_A0_Rectangle_33" rx="0" ry="0" x="0" y="0" width="22" height="22">
+						</rect>
+					</svg>
+				</div>
+				<div id="AltKategori_A0_Group_27">
+					<div id="Sanat_Galerileri">
+						<span>Sanat Galerileri</span>
+					</div>
+					<svg class="__aret_Kutusu_A0_Rectangle_34">
+						<rect id="__aret_Kutusu_A0_Rectangle_34" rx="0" ry="0" x="0" y="0" width="22" height="22">
+						</rect>
+					</svg>
+				</div>
+				<div id="AltKategori_A0_Group_28">
+					<div id="Sergiler_A0_Text_23">
+						<span>Sergiler</span>
+					</div>
+					<svg class="__aret_Kutusu_A0_Rectangle_35">
+						<rect id="__aret_Kutusu_A0_Rectangle_35" rx="0" ry="0" x="0" y="0" width="22" height="22">
+						</rect>
+					</svg>
+				</div>
+				<div id="AltKategori_A0_Group_29">
+					<div id="Sinemalar_A0_Text_24">
+						<span>Sinemalar</span>
+					</div>
+					<svg class="__aret_Kutusu_A0_Rectangle_36">
+						<rect id="__aret_Kutusu_A0_Rectangle_36" rx="0" ry="0" x="0" y="0" width="22" height="22">
+						</rect>
+					</svg>
+				</div>
+				<div id="AltKategori_A0_Group_30">
+					<div id="Tiyatrolar_A0_Text_25">
+						<span>Tiyatrolar</span>
+					</div>
+					<svg class="__aret_Kutusu_A0_Rectangle_37">
+						<rect id="__aret_Kutusu_A0_Rectangle_37" rx="0" ry="0" x="0" y="0" width="22" height="22">
+						</rect>
+					</svg>
+				</div>
+				<div id="AltKategori_A0_Group_31">
+					<div id="Zanaat_At_lyeleri_A0_Text_26">
+						<span>Zanaat Atölyeleri</span>
+					</div>
+					<svg class="__aret_Kutusu_A0_Rectangle_38">
+						<rect id="__aret_Kutusu_A0_Rectangle_38" rx="0" ry="0" x="0" y="0" width="22" height="22">
+						</rect>
+					</svg>
+				</div>
+			</div>
+			<div id="Ba_l_k_A0_Group_32">
+				<svg class="ArkaRenk_A0_Rectangle_39">
+					<rect id="ArkaRenk_A0_Rectangle_39" rx="0" ry="0" x="0" y="0" width="204.241" height="50">
+					</rect>
+				</svg>
+				<div id="K_lt_rel_Alanlar_A0_Text_27">
+					<span>Kültürel Alanlar</span>
+				</div>
+				<svg class="AnaKategoriKutu_A0_Rectangle_40">
+					<rect id="AnaKategoriKutu_A0_Rectangle_40" rx="0" ry="0" x="0" y="0" width="21" height="21">
+					</rect>
+				</svg>
+			</div>
+		</div>
+		<svg class="araCubuk">
+			<path id="araCubuk" d="M 0 0 L 0 685">
+			</path>
+		</svg>
+	</div>
+	<div id="Sokaklar">
+		<div id="E_ref_Efendi">
+			<svg class="Ellipse_67">
+				<ellipse id="Ellipse_67" rx="11.5" ry="11.5" cx="11.5" cy="11.5">
+				</ellipse>
+			</svg>
+			<svg class="Ellipse_68">
+				<ellipse id="Ellipse_68" rx="11.5" ry="11.5" cx="11.5" cy="11.5">
+				</ellipse>
+			</svg>
+			<svg class="Ellipse_69">
+				<ellipse id="Ellipse_69" rx="11.5" ry="11.5" cx="11.5" cy="11.5">
+				</ellipse>
+			</svg>
+			<svg class="Ellipse_70">
+				<ellipse id="Ellipse_70" rx="11.5" ry="11.5" cx="11.5" cy="11.5">
+				</ellipse>
+			</svg>
+			<svg class="Ellipse_71">
+				<ellipse id="Ellipse_71" rx="11.5" ry="11.5" cx="11.5" cy="11.5">
+				</ellipse>
+			</svg>
+			<svg class="Ellipse_72">
+				<ellipse id="Ellipse_72" rx="11.5" ry="11.5" cx="11.5" cy="11.5">
+				</ellipse>
+			</svg>
+			<svg class="Ellipse_73">
+				<ellipse id="Ellipse_73" rx="11.5" ry="11.5" cx="11.5" cy="11.5">
+				</ellipse>
+			</svg>
+			<svg class="Ellipse_74">
+				<ellipse id="Ellipse_74" rx="11.5" ry="11.5" cx="11.5" cy="11.5">
+				</ellipse>
+			</svg>
+			<svg class="Ellipse_75">
+				<ellipse id="Ellipse_75" rx="11.5" ry="11.5" cx="11.5" cy="11.5">
+				</ellipse>
+			</svg>
+			<svg class="Ellipse_76">
+				<ellipse id="Ellipse_76" rx="11.5" ry="11.5" cx="11.5" cy="11.5">
+				</ellipse>
+			</svg>
+			<svg class="Ellipse_77">
+				<ellipse id="Ellipse_77" rx="11.5" ry="11.5" cx="11.5" cy="11.5">
+				</ellipse>
+			</svg>
+			<svg class="Ellipse_78">
+				<ellipse id="Ellipse_78" rx="11.5" ry="11.5" cx="11.5" cy="11.5">
+				</ellipse>
+			</svg>
+			<svg class="Ellipse_79">
+				<ellipse id="Ellipse_79" rx="11.5" ry="11.5" cx="11.5" cy="11.5">
+				</ellipse>
+			</svg>
+			<svg class="Ellipse_80">
+				<ellipse id="Ellipse_80" rx="11.5" ry="11.5" cx="11.5" cy="11.5">
+				</ellipse>
+			</svg>
+			<svg class="Ellipse_81">
+				<ellipse id="Ellipse_81" rx="11.5" ry="11.5" cx="11.5" cy="11.5">
+				</ellipse>
+			</svg>
+			<svg class="Ellipse_82">
+				<ellipse id="Ellipse_82" rx="11.5" ry="11.5" cx="11.5" cy="11.5">
+				</ellipse>
+			</svg>
+			<svg class="Ellipse_83">
+				<ellipse id="Ellipse_83" rx="11.5" ry="11.5" cx="11.5" cy="11.5">
+				</ellipse>
+			</svg>
+			<svg class="Ellipse_84">
+				<ellipse id="Ellipse_84" rx="11.5" ry="11.5" cx="11.5" cy="11.5">
+				</ellipse>
+			</svg>
+			<svg class="Ellipse_85">
+				<ellipse id="Ellipse_85" rx="11.5" ry="11.5" cx="11.5" cy="11.5">
+				</ellipse>
+			</svg>
+			<svg class="Ellipse_86">
+				<ellipse id="Ellipse_86" rx="11.5" ry="11.5" cx="11.5" cy="11.5">
+				</ellipse>
+			</svg>
+		</div>
+		<div id="Baysungur">
+			<svg class="Baysungur_click">
+				<ellipse id="Baysungur_click" rx="11.5" ry="11.5" cx="11.5" cy="11.5">
+				</ellipse>
+			</svg>
+			<svg class="Baysungur_click_A0_Ellipse_22">
+				<ellipse id="Baysungur_click_A0_Ellipse_22" rx="11.5" ry="11.5" cx="11.5" cy="11.5">
+				</ellipse>
+			</svg>
+			<svg class="Baysungur_click_A0_Ellipse_23">
+				<ellipse id="Baysungur_click_A0_Ellipse_23" rx="11.5" ry="11.5" cx="11.5" cy="11.5">
+				</ellipse>
+			</svg>
+			<svg class="Baysungur_click_A0_Ellipse_24">
+				<ellipse id="Baysungur_click_A0_Ellipse_24" rx="11.5" ry="11.5" cx="11.5" cy="11.5">
+				</ellipse>
+			</svg>
+			<svg class="Baysungur_click_A0_Ellipse_25">
+				<ellipse id="Baysungur_click_A0_Ellipse_25" rx="11.5" ry="11.5" cx="11.5" cy="11.5">
+				</ellipse>
+			</svg>
+			<svg class="Baysungur_click_A0_Ellipse_26">
+				<ellipse id="Baysungur_click_A0_Ellipse_26" rx="11.5" ry="11.5" cx="11.5" cy="11.5">
+				</ellipse>
+			</svg>
+			<svg class="Baysungur_click_A0_Ellipse_27">
+				<ellipse id="Baysungur_click_A0_Ellipse_27" rx="11.5" ry="11.5" cx="11.5" cy="11.5">
+				</ellipse>
+			</svg>
+			<svg class="Baysungur_click_A0_Ellipse_28">
+				<ellipse id="Baysungur_click_A0_Ellipse_28" rx="11.5" ry="11.5" cx="11.5" cy="11.5">
+				</ellipse>
+			</svg>
+			<svg class="Baysungur_click_A0_Ellipse_29">
+				<ellipse id="Baysungur_click_A0_Ellipse_29" rx="11.5" ry="11.5" cx="11.5" cy="11.5">
+				</ellipse>
+			</svg>
+			<svg class="Baysungur_click_A0_Ellipse_30">
+				<ellipse id="Baysungur_click_A0_Ellipse_30" rx="11.5" ry="11.5" cx="11.5" cy="11.5">
+				</ellipse>
+			</svg>
+			<svg class="Baysungur_click_A0_Ellipse_31">
+				<ellipse id="Baysungur_click_A0_Ellipse_31" rx="11.5" ry="11.5" cx="11.5" cy="11.5">
+				</ellipse>
+			</svg>
+			<svg class="Baysungur_click_A0_Ellipse_32">
+				<ellipse id="Baysungur_click_A0_Ellipse_32" rx="11.5" ry="11.5" cx="11.5" cy="11.5">
+				</ellipse>
+			</svg>
+			<svg class="Baysungur_click_A0_Ellipse_33">
+				<ellipse id="Baysungur_click_A0_Ellipse_33" rx="11.5" ry="11.5" cx="11.5" cy="11.5">
+				</ellipse>
+			</svg>
+			<svg class="Baysungur_click_A0_Ellipse_34">
+				<ellipse id="Baysungur_click_A0_Ellipse_34" rx="11.5" ry="11.5" cx="11.5" cy="11.5">
+				</ellipse>
+			</svg>
+			<svg class="Baysungur_click_A0_Ellipse_35">
+				<ellipse id="Baysungur_click_A0_Ellipse_35" rx="11.5" ry="11.5" cx="11.5" cy="11.5">
+				</ellipse>
+			</svg>
+			<svg class="Baysungur_click_A0_Ellipse_36">
+				<ellipse id="Baysungur_click_A0_Ellipse_36" rx="11.5" ry="11.5" cx="11.5" cy="11.5">
+				</ellipse>
+			</svg>
+			<svg class="Baysungur_click_A0_Ellipse_37">
+				<ellipse id="Baysungur_click_A0_Ellipse_37" rx="11.5" ry="11.5" cx="11.5" cy="11.5">
+				</ellipse>
+			</svg>
+			<svg class="Baysungur_click_A0_Ellipse_38">
+				<ellipse id="Baysungur_click_A0_Ellipse_38" rx="11.5" ry="11.5" cx="11.5" cy="11.5">
+				</ellipse>
+			</svg>
+			<svg class="Baysungur_click_A0_Ellipse_39">
+				<ellipse id="Baysungur_click_A0_Ellipse_39" rx="11.5" ry="11.5" cx="11.5" cy="11.5">
+				</ellipse>
+			</svg>
+			<svg class="Baysungur_click_A0_Ellipse_40">
+				<ellipse id="Baysungur_click_A0_Ellipse_40" rx="11.5" ry="11.5" cx="11.5" cy="11.5">
+				</ellipse>
+			</svg>
+			<svg class="Baysungur_click_A0_Ellipse_41">
+				<ellipse id="Baysungur_click_A0_Ellipse_41" rx="11.5" ry="11.5" cx="11.5" cy="11.5">
+				</ellipse>
+			</svg>
+			<svg class="Baysungur_click_A0_Ellipse_42">
+				<ellipse id="Baysungur_click_A0_Ellipse_42" rx="11.5" ry="11.5" cx="11.5" cy="11.5">
+				</ellipse>
+			</svg>
+		</div>
+	</div>
+	<div id="Timeline">
+		<div id="Harita_info">
+			<svg class="Rectangle_1575">
+				<rect id="Rectangle_1575" rx="0" ry="0" x="0" y="0" width="442.261" height="36">
+				</rect>
+			</svg>
+			<div id="ID1922_Plan_d_Ensemble_de_la_v">
+				<span>1922 Plan'd Ensemble de la ville de Constantinople Haritası</span>
+			</div>
+		</div>
+		<svg class="Rectangle_1569">
+			<rect id="Rectangle_1569" rx="0" ry="0" x="0" y="0" width="1920" height="112">
+			</rect>
+		</svg>
+		<div id="Zaman__izelgesi">
+			<span>Zaman Çizelgesi</span>
+		</div>
+		<div id="Timeline_icon">
+			<svg class="Path_118" viewBox="10.792 10.792 36.5 36.5">
+				<path id="Path_118" d="M 30.34577560424805 10.83763122558594 C 19.6954402923584 10.09381675720215 10.79199981689453 18.54714965820313 10.79199981689453 29.04202270507813 C 10.79199981689453 30.21406555175781 10.90743446350098 31.35911560058594 11.11968803405762 32.47018432617188 L 15.18646621704102 31.20178413391113 C 15.05660247802734 30.36441230773926 15.00028038024902 29.50469398498535 15.02588081359863 28.62496566772461 C 15.23394584655762 21.53451347351074 20.83443641662598 15.62448883056641 27.90580177307129 15.06453323364258 C 36.64167785644531 14.37285041809082 43.88805389404297 21.74164772033691 42.98923873901367 30.51429176330566 C 42.30779647827148 37.16161727905273 36.88744354248047 42.46467590332031 30.22801208496094 43.01532363891602 C 25.46070861816406 43.40957260131836 21.13652420043945 41.40155410766602 18.32789993286133 38.07346725463867 C 17.60875511169434 37.22119522094727 16.3436164855957 37.08714294433594 15.43037223815918 37.72715759277344 L 15.43037223815918 37.72715759277344 C 14.46080589294434 38.40627288818359 14.25088119506836 39.77707672119141 15.00726318359375 40.68752288818359 C 18.35629272460938 44.71892929077148 23.40287971496582 47.29203033447266 29.04200553894043 47.29203033447266 C 39.5368766784668 47.29203033447266 47.99021148681641 38.38858795166016 47.24639892578125 27.73825073242188 C 46.61848068237305 18.74823188781738 39.33579254150391 11.46554565429688 30.34577560424805 10.83763122558594 Z">
+				</path>
+			</svg>
+			<svg class="Path_119" viewBox="46.875 29.25 2.909 11.404">
+				<path id="Path_119" d="M 49.78416442871094 39.41439056396484 C 49.78416442871094 40.09909057617188 49.13297653198242 40.65392303466797 48.32958221435547 40.65392303466797 L 48.32958221435547 40.65392303466797 C 47.52618789672852 40.65392303466797 46.875 40.09909057617188 46.875 39.41439056396484 L 46.875 30.48953628540039 C 46.875 29.80483436584473 47.52618789672852 29.25 48.32958221435547 29.25 L 48.32958221435547 29.25 C 49.13297653198242 29.25 49.78416442871094 29.80483436584473 49.78416442871094 30.48953628540039 L 49.78416442871094 39.41439056396484 Z">
+				</path>
+			</svg>
+			<svg class="Path_120" viewBox="47.541 47.5 10.803 2.909">
+				<path id="Path_120" d="M 48.71490859985352 50.40916442871094 C 48.06651306152344 50.40916442871094 47.54100036621094 49.75844192504883 47.54100036621094 48.9545783996582 L 47.54100036621094 48.9545783996582 C 47.54100036621094 48.15118408203125 48.06697845458984 47.5 48.71490859985352 47.5 L 57.16963577270508 47.5 C 57.81803512573242 47.5 58.34354782104492 48.15118408203125 58.34354782104492 48.9545783996582 L 58.34354782104492 48.9545783996582 C 58.34354782104492 49.75797653198242 57.81756973266602 50.40916442871094 57.16963577270508 50.40916442871094 L 48.71490859985352 50.40916442871094 Z">
+				</path>
+			</svg>
+			<svg class="Path_117" viewBox="5 48.772 10.008 6.511">
+				<path id="Path_117" d="M 9.859468460083008 55.28338623046875 L 15.00752830505371 48.77197265625 L 5 48.80083084106445 L 9.859468460083008 55.28338623046875 Z">
+				</path>
+			</svg>
+		</div>
+		<svg class="Line_2">
+			<path id="Line_2" d="M 0 0 L 1069 0">
+			</path>
+		</svg>
+		<div id="Opakl_k">
+			<span>Opaklık</span>
+		</div>
+		<svg class="Line_3">
+			<path id="Line_3" d="M 0 0 L 161 0">
+			</path>
+		</svg>
+		<div id="Y_zde">
+			<span>100%</span>
+		</div>
+		<svg class="Line_4">
+			<path id="Line_4" d="M 0 0 L 61 0">
+			</path>
+		</svg>
+		<svg class="Ellipse_87">
+			<ellipse id="Ellipse_87" rx="10.5" ry="10.5" cx="10.5" cy="10.5">
+			</ellipse>
+		</svg>
+		<div id="Y_l_butonu">
+			<svg class="Rectangle_1573">
+				<rect id="Rectangle_1573" rx="0" ry="0" x="0" y="0" width="26.521" height="26.521">
+				</rect>
+			</svg>
+			<svg class="Rectangle_1572">
+				<rect id="Rectangle_1572" rx="16" ry="16" x="0" y="0" width="68.643" height="32.761">
+				</rect>
+			</svg>
+			<svg class="Rectangle_1574">
+				<rect id="Rectangle_1574" rx="0" ry="0" x="0" y="0" width="21.281" height="21.281">
+				</rect>
+			</svg>
+			<div id="ID2019">
+				<span>2019</span>
+			</div>
+		</div>
+	</div>
+	<div id="_st_Grup">
+		<svg class="Rectangle_1466">
+			<rect id="Rectangle_1466" rx="0" ry="0" x="0" y="0" width="1920" height="81">
+			</rect>
+		</svg>
+		<div id="Search_bar">
+			<div id="Yazma_alan_">
+				<svg class="Yazma_alan__A0_Rectangle_47">
+					<rect id="Yazma_alan__A0_Rectangle_47" rx="20" ry="20" x="0" y="0" width="260" height="40">
+					</rect>
+				</svg>
+			</div>
+			<div id="Haritada_ara">
+				<span>Haritada ara</span>
+			</div>
+		</div>
+		<div id="Group_25">
+			<div id="Filtreler">
+				<span>Filtreler</span>
+			</div>
+			<div id="Filter">
+				<svg class="Path_112" viewBox="3.592 6.4 30.452 23.818">
+					<path id="Path_112" d="M 21.28838157653809 19.89072608947754 L 21.28838157653809 29.81804275512695 C 21.28838157653809 29.9762077331543 21.18654632568359 30.11576461791992 21.0203971862793 30.18089294433594 C 20.95608139038086 30.20880699157715 20.89176559448242 30.21810722351074 20.82209014892578 30.21810722351074 C 20.71489715576172 30.21810722351074 20.61306571960449 30.18554306030273 20.52730941772461 30.12507057189941 L 16.50755500793457 27.22688293457031 C 16.40036201477051 27.15245628356934 16.34140396118164 27.03615760803223 16.34140396118164 26.91985511779785 L 16.34140396118164 19.89072608947754 L 3.703290939331055 7.060580253601074 C 3.585384607315063 6.939629077911377 3.558581829071045 6.772158145904541 3.633618354797363 6.632599353790283 C 3.708657503128052 6.488387107849121 3.874803066253662 6.40000057220459 4.057034492492676 6.40000057220459 L 33.58347320556641 6.40000057220459 C 33.76570129394531 6.40000057220459 33.92649078369141 6.493039608001709 34.00152587890625 6.632599353790283 C 34.07656097412109 6.776810646057129 34.04976272583008 6.944281101226807 33.93185043334961 7.060580253601074 L 21.28838157653809 19.89072608947754 Z">
+					</path>
+				</svg>
+			</div>
+		</div>
+		<div id="info">
+			<div id="Group_24">
+				<svg class="Path_115" viewBox="0 0 28.432 28.432">
+					<path id="Path_115" d="M 14.2158203125 28.431640625 C 6.364707469940186 28.431640625 0 22.06693649291992 0 14.2158203125 C 0 6.364707469940186 6.364707469940186 0 14.2158203125 0 C 22.06693649291992 0 28.431640625 6.364707469940186 28.431640625 14.2158203125 C 28.431640625 22.06693649291992 22.06693649291992 28.431640625 14.2158203125 28.431640625 Z M 12.08344745635986 12.36776351928711 L 12.08344745635986 21.75020408630371 C 12.08344745635986 22.92841339111328 13.03818225860596 23.8825798034668 14.2158203125 23.8825798034668 C 15.39118480682373 23.8825798034668 16.34819412231445 22.92784309387207 16.34819412231445 21.75020408630371 L 16.34819412231445 12.36776351928711 C 16.34819412231445 11.18955707550049 15.39345836639404 10.23539066314697 14.2158203125 10.23539066314697 C 13.04045677185059 10.23539066314697 12.08344745635986 11.19012641906738 12.08344745635986 12.36776351928711 Z M 14.2158203125 8.813809394836426 C 15.39345836639404 8.813809394836426 16.34819412231445 7.859074592590332 16.34819412231445 6.681436061859131 C 16.34819412231445 5.50379753112793 15.39345836639404 4.549062728881836 14.2158203125 4.549062728881836 C 13.03818225860596 4.549062728881836 12.08344745635986 5.50379753112793 12.08344745635986 6.681436061859131 C 12.08344745635986 7.859074592590332 13.03818225860596 8.813809394836426 14.2158203125 8.813809394836426 Z">
+					</path>
+				</svg>
+			</div>
+		</div>
 	</div>
 </div>
+<script>
+///////////////////////////////////////
+// INITIALIZATION
+///////////////////////////////////////
+
+/**
+ * Functionality for scaling, showing by media query, and navigation between multiple pages on a single page. 
+ * Code subject to change.
+ **/
+
+if (window.console==null) { window["console"] = { log : function() {} } }; // some browsers do not set
+
+var Application = function() {
+	// event constants
+	this.NAVIGATION_CHANGE = "viewChange";
+	this.VIEW_NOT_FOUND = "viewNotFound";
+	this.STATE_NOT_FOUND = "stateNotFound";
+	this.APPLICATION_COMPLETE = "applicationComplete";
+	this.SIZE_STATE_NAME = "data-is-view-scaled";
+
+	this.currentQuery = {index: 0, rule: null, mediaText: null, id: null};
+	this.inclusionQuery = "(min-width: 0px)";
+	this.exclusionQuery = "none and (min-width: 99999px)";
+	this.LastModifiedDateLabelName = "LastModifiedDateLabel";
+	this.pageRefreshedName = "showPageRefreshedNotification";
+	this.prefix = "--web-";
+	this.applicationStylesheet = null;
+	this.mediaQueryDictionary = {};
+	this.statesDictionary = {};
+	this.states = [];
+	this.views = {};
+	this.viewIds = [];
+	this.viewQueries = {};
+	this.viewScale = 1;
+	this.numberOfViews = 0;
+	this.verticalPadding = 0;
+	this.horizontalPadding = 0;
+	this.stateName = null;
+
+	// view settings
+	this.showUpdateNotification = false;
+	this.showNavigationControls = false;
+	this.scaleViewsToFit = false;
+	this.scaleToFitOnDoubleClick = false;
+	this.actualSizeOnDoubleClick = false;
+	this.scaleViewsOnResize = false;
+	this.navigationOnKeypress = false;
+	this.showViewName = false;
+	this.enableDeepLinking = true;
+	this.refreshPageForChanges = false;
+	this.showRefreshNotifications = true;
+
+	// view controls
+	this.scaleViewSlider = null;
+	this.lastModifiedLabel = null;
+	this.supportsPopState = false; // window.history.pushState!=null;
+	this.initialized = false;
+
+	// refresh properties
+	this.lastModifiedDate = null;
+	this.refreshRequest = null;
+	this.refreshDuration = 2000;
+	this.refreshInterval = null;
+	this.refreshContent = null;
+	this.refreshContentSize = null;
+	this.refreshCheckContent = false;
+	this.refreshCheckContentSize = false;
+
+	var self = this;
+
+	self.initialize = function(event) {
+		var view = self.getVisibleView();
+		self.collectViews();
+		self.collectMediaQueries();
+		self.setViewOptions(view);
+
+		
+		// sometimes the body size is 0 so we call this now and again later
+		if (self.initialized) {
+			window.addEventListener(self.NAVIGATION_CHANGE, self.viewChangeHandler);
+			window.addEventListener("keyup", self.keypressHandler);
+			window.addEventListener("keypress", self.keypressHandler);
+			window.addEventListener("resize", self.resizeHandler);
+			window.document.addEventListener("dblclick", self.doubleClickHandler);
+
+			if (self.supportsPopState) {
+				window.addEventListener('popstate', self.popStateHandler);
+			}
+			else {
+				window.addEventListener('hashchange', self.hashChangeHandler);
+			}
+
+			// we are ready to go
+			window.dispatchEvent(new Event(self.APPLICATION_COMPLETE));
+		}
+
+		if (self.initialized==false) {
+			if (self.showNavigationControls || self.singlePageApplication) {
+				self.syncronizeViewToURL();
+			}
+	
+			if (self.refreshPageForChanges) {
+				self.setupRefreshForChanges();
+			}
+	
+			self.initialized = true;
+		}
+		
+		if (self.scaleViewsToFit) {
+			self.viewScale = self.scaleViewToFit();
+			
+			if (self.viewScale<0) {
+				setTimeout(self.scaleViewToFit, 500);
+			}
+		}
+		else {
+			self.viewScale = self.getViewScaleValue(view);
+			self.updateSliderValue(self.viewScale);
+		}
+	
+		if (self.showUpdateNotification) {
+			self.showNotification();
+		}
+	
+		//"addEventListener" in window ? null : window.addEventListener = window.attachEvent;
+		//"addEventListener" in document ? null : document.addEventListener = document.attachEvent;
+	}
+
+
+	///////////////////////////////////////
+	// AUTO REFRESH 
+	///////////////////////////////////////
+
+	self.setupRefreshForChanges = function() {
+		self.refreshRequest = new XMLHttpRequest();
+
+		if (!self.refreshRequest) {
+			return false;
+		}
+
+		// get document start values immediately
+		self.requestRefreshUpdate();
+	}
+
+	/**
+	 * Attempt to check the last modified date by the headers 
+	 * or the last modified property from the byte array 
+	 * (BETA)
+	 **/
+	self.requestRefreshUpdate = function() {
+		var url = document.location.href;
+		var protocol = window.location.protocol;
+		var method;
+		
+		try {
+
+			if (self.refreshCheckContentSize) {
+				self.refreshRequest.open('HEAD', url, true);
+			}
+			else if (self.refreshCheckContent) {
+				self.refreshContent = document.documentElement.outerHTML;
+				self.refreshRequest.open('GET', url, true);
+				self.refreshRequest.responseType = "text";
+			}
+			else {
+
+				// get page last modified date for the first call to compare to later
+				if (self.lastModifiedDate==null) {
+
+					// File system does not send headers in FF so get blob if possible
+					if (protocol=="file:") {
+						self.refreshRequest.open("GET", url, true);
+						self.refreshRequest.responseType = "blob";
+					}
+					else {
+						self.refreshRequest.open("HEAD", url, true);
+						self.refreshRequest.responseType = "blob";
+					}
+
+					self.refreshRequest.onload = self.refreshOnLoadOnceHandler;
+
+					// In some browsers (Chrome & Safari) this error occurs at send: 
+					// 
+					// Chrome - Access to XMLHttpRequest at 'file:///index.html' from origin 'null' 
+					// has been blocked by CORS policy: 
+					// Cross origin requests are only supported for protocol schemes: 
+					// http, data, chrome, chrome-extension, https.
+					// 
+					// Safari - XMLHttpRequest cannot load file:///Users/user/Public/index.html. Cross origin requests are only supported for HTTP.
+					// 
+					// Solution is to run a local server, set local permissions or test in another browser
+					self.refreshRequest.send(null);
+
+					// In MS browsers the following behavior occurs possibly due to an AJAX call to check last modified date: 
+					// 
+					// DOM7011: The code on this page disabled back and forward caching.
+
+				}
+				else {
+					self.refreshRequest = new XMLHttpRequest();
+					self.refreshRequest.onreadystatechange = self.refreshHandler;
+					self.refreshRequest.ontimeout = function() {
+						console.log("Couldn't find page to check for updates");
+					}
+					
+					var method;
+					if (protocol=="file:") {
+						method = "GET";
+					}
+					else {
+						method = "HEAD";
+					}
+
+					//refreshRequest.open('HEAD', url, true);
+					self.refreshRequest.open(method, url, true);
+					self.refreshRequest.responseType = "blob";
+					self.refreshRequest.send(null);
+				}
+			}
+		}
+		catch (error) {
+			console.log("Refresh failed for the following reason:")
+			console.log(error);
+		}
+	}
+
+	self.refreshHandler = function() {
+		var contentSize;
+
+		try {
+
+			if (self.refreshRequest.readyState === XMLHttpRequest.DONE) {
+				
+				if (self.refreshRequest.status === 2 || 
+					self.refreshRequest.status === 200) {
+					var pageChanged = false;
+
+					self.updateLastModifiedLabel();
+
+					if (self.refreshCheckContentSize) {
+						var lastModifiedHeader = self.refreshRequest.getResponseHeader("Last-Modified");
+						contentSize = self.refreshRequest.getResponseHeader("Content-Length");
+						//lastModifiedDate = refreshRequest.getResponseHeader("Last-Modified");
+						var headers = self.refreshRequest.getAllResponseHeaders();
+						var hasContentHeader = headers.indexOf("Content-Length")!=-1;
+						
+						if (hasContentHeader) {
+							contentSize = self.refreshRequest.getResponseHeader("Content-Length");
+
+							// size has not been set yet
+							if (self.refreshContentSize==null) {
+								self.refreshContentSize = contentSize;
+								// exit and let interval call this method again
+								return;
+							}
+
+							if (contentSize!=self.refreshContentSize) {
+								pageChanged = true;
+							}
+						}
+					}
+					else if (self.refreshCheckContent) {
+
+						if (self.refreshRequest.responseText!=self.refreshContent) {
+							pageChanged = true;
+						}
+					}
+					else {
+						lastModifiedHeader = self.getLastModified(self.refreshRequest);
+
+						if (self.lastModifiedDate!=lastModifiedHeader) {
+							pageChanged = true;
+						}
+
+					}
+
+					
+					if (pageChanged) {
+						clearInterval(self.refreshInterval);
+						self.refreshUpdatedPage();
+						return;
+					}
+
+				}
+				else {
+					console.log('There was a problem with the request.');
+				}
+
+			}
+		}
+		catch( error ) {
+			//console.log('Caught Exception: ' + error);
+		}
+	}
+
+	self.refreshOnLoadOnceHandler = function(event) {
+
+		// get the last modified date
+		if (self.refreshRequest.response) {
+			self.lastModifiedDate = self.getLastModified(self.refreshRequest);
+
+			if (self.lastModifiedDate!=null) {
+
+				if (self.refreshInterval==null) {
+					self.refreshInterval = setInterval(self.requestRefreshUpdate, self.refreshDuration);
+				}
+			}
+			else {
+				console.log("Could not get last modified date from the server");
+			}
+		}
+	}
+
+	self.refreshUpdatedPage = function() {
+		if (self.showRefreshNotifications) {
+			var date = new Date().setTime((new Date().getTime()+10000));
+			document.cookie = encodeURIComponent(self.pageRefreshedName) + "=true" + "; max-age=6000;" + " path=/";
+		}
+
+		document.location.reload(true);
+	}
+
+	self.showNotification = function(duration) {
+		var notificationID = self.pageRefreshedName+"ID";
+		var notification = document.getElementById(notificationID);
+		if (duration==null) duration = 4000;
+
+		if (notification!=null) {return;}
+
+		notification = document.createElement("div");
+		notification.id = notificationID;
+		notification.textContent = "PAGE UPDATED";
+		var styleRule = ""
+		styleRule = "position: fixed; padding: 7px 16px 6px 16px; font-family: Arial, sans-serif; font-size: 10px; font-weight: bold; left: 50%;";
+		styleRule += "top: 20px; background-color: rgba(0,0,0,.5); border-radius: 12px; color:rgb(235, 235, 235); transition: all 2s linear;";
+		styleRule += "transform: translateX(-50%); letter-spacing: .5px; filter: drop-shadow(2px 2px 6px rgba(0, 0, 0, .1))";
+		notification.setAttribute("style", styleRule);
+
+		notification.className= "PageRefreshedClass";
+		
+		document.body.appendChild(notification);
+
+		setTimeout(function() {
+			notification.style.opacity = "0";
+			notification.style.filter = "drop-shadow( 0px 0px 0px rgba(0,0,0, .5))";
+			setTimeout(function() {
+				notification.parentNode.removeChild(notification);
+			}, duration)
+		}, duration);
+
+		document.cookie = encodeURIComponent(self.pageRefreshedName) + "=; max-age=1; path=/";
+	}
+
+	/**
+	 * Get the last modified date from the header 
+	 * or file object after request has been received
+	 **/
+	self.getLastModified = function(request) {
+		var date;
+
+		// file protocol - FILE object with last modified property
+		if (request.response && request.response.lastModified) {
+			date = request.response.lastModified;
+		}
+		
+		// http protocol - check headers
+		if (date==null) {
+			date = request.getResponseHeader("Last-Modified");
+		}
+
+		return date;
+	}
+
+	self.updateLastModifiedLabel = function() {
+		var labelValue = "";
+		
+		if (self.lastModifiedLabel==null) {
+			self.lastModifiedLabel = document.getElementById("LastModifiedLabel");
+		}
+
+		if (self.lastModifiedLabel) {
+			var seconds = parseInt(((new Date().getTime() - Date.parse(document.lastModified)) / 1000 / 60) * 100 + "");
+			var minutes = 0;
+			var hours = 0;
+
+			if (seconds < 60) {
+				seconds = Math.floor(seconds/10)*10;
+				labelValue = seconds + " seconds";
+			}
+			else {
+				minutes = parseInt((seconds/60) + "");
+
+				if (minutes>60) {
+					hours = parseInt((seconds/60/60) +"");
+					labelValue += hours==1 ? " hour" : " hours";
+				}
+				else {
+					labelValue = minutes+"";
+					labelValue += minutes==1 ? " minute" : " minutes";
+				}
+			}
+			
+			if (seconds<10) {
+				labelValue = "Updated now";
+			}
+			else {
+				labelValue = "Updated " + labelValue + " ago";
+			}
+
+			if (self.lastModifiedLabel.firstElementChild) {
+				self.lastModifiedLabel.firstElementChild.textContent = labelValue;
+
+			}
+			else if ("textContent" in self.lastModifiedLabel) {
+				self.lastModifiedLabel.textContent = labelValue;
+			}
+		}
+	}
+
+	self.getShortString = function(string, length) {
+		if (length==null) length = 30;
+		string = string!=null ? string.substr(0, length).replace(/\n/g, "") : "[String is null]";
+		return string;
+	}
+
+	self.getShortNumber = function(value, places) {
+		if (places==null || places<1) places = 3;
+		value = Math.round(value * Math.pow(10,places)) / Math.pow(10, places);
+		return value;
+	}
+
+	///////////////////////////////////////
+	// NAVIGATION CONTROLS
+	///////////////////////////////////////
+
+	self.updateViewLabel = function() {
+		var viewNavigationLabel = document.getElementById("ViewNavigationLabel");
+		var view = self.getVisibleView();
+		var viewIndex = view ? self.getViewIndex(view) : -1;
+		var viewName = view ? self.getViewPreferenceValue(view, self.prefix + "view-name") : null;
+		var viewId = view ? view.id : null;
+
+		if (viewNavigationLabel && view) {
+			if (viewName && viewName.indexOf('"')!=-1) {
+				viewName = viewName.replace(/"/g, "");
+			}
+
+			if (self.showViewName) {
+				viewNavigationLabel.textContent = viewName;
+				self.setTooltip(viewNavigationLabel, viewIndex + 1 + " of " + self.numberOfViews);
+			}
+			else {
+				viewNavigationLabel.textContent = viewIndex + 1 + " of " + self.numberOfViews;
+				self.setTooltip(viewNavigationLabel, viewName);
+			}
+
+		}
+	}
+
+	self.updateURL = function(view) {
+		view = view == null ? self.getVisibleView() : view;
+		var viewId = view ? view.id : null
+		var viewFragment = view ? "#"+ viewId : null;
+
+		if (viewId && self.enableDeepLinking) {
+
+			if (self.supportsPopState==false) {
+				self.setFragment(viewId);
+			}
+			else {
+				if (viewFragment!=window.location.hash) {
+
+					if (window.location.hash==null) {
+						window.history.replaceState({name:viewId}, null, viewFragment);
+					}
+					else {
+						window.history.pushState({name:viewId}, null, viewFragment);
+					}
+				}
+			}
+		}
+	}
+
+	self.setFragment = function(value) {
+		window.location.hash = "#" + value;
+	}
+
+	self.setTooltip = function(element, value) {
+		// setting the tooltip in edge causes a page crash on hover
+		if (/Edge/.test(navigator.userAgent)) { return; }
+
+		if ("title" in element) {
+			element.title = value;
+		}
+	}
+
+	self.getStylesheetRules = function(styleSheet) {
+		if (styleSheet) return styleSheet.cssRules || styleSheet.rules;
+
+		return document.styleSheets[0]["cssRules"] || document.styleSheets[0]["rules"];
+	}
+
+	/**
+	 * If single page application hide all of the views except first
+	 **/
+	self.hideViews = function(selectIndex) {
+		var rules = self.getStylesheetRules();
+		var queryIndex = 0;
+		var numberOfRules = rules!=null ? rules.length : 0;
+
+		// loop through rules and hide media queries except selected
+		for (var i=0;i<numberOfRules;i++) {
+			var rule = rules[i];
+
+			if (rule.media!=null) {
+
+				if (queryIndex==selectIndex) {
+					self.currentQuery.mediaText = rule.conditionText;
+					self.currentQuery.index = selectIndex;
+					self.currentQuery.rule = rule;
+					self.enableMediaQuery(rule);
+				}
+				else {
+					self.disableMediaQuery(rule);
+				}
+				
+				queryIndex++;
+			}
+		}
+
+		self.numberOfViews = queryIndex;
+		self.updateViewLabel();
+		self.updateURL();
+
+		self.dispatchViewChange();
+
+		var view = self.getVisibleView();
+		var viewIndex = view ? self.getViewIndex(view) : -1;
+
+		return viewIndex==selectIndex ? view : null;
+	}
+
+	self.showView = function(view) {
+		var id = view ? view.id : null;
+		var query = id ? self.mediaQueryDictionary[id] : null;
+		var display = null;
+
+		if (query) {
+			self.enableMediaQuery(query);
+			if (view==null) view =self.getVisibleView();
+			self.setViewOptions(view);
+		}
+		else if (id) {
+			display = window.getComputedStyle(view).getPropertyValue("display");
+			if (display=="" ||  display=="none") {
+				view.style.display = "block";
+			}
+		}
+	}
+
+	self.setViewOptions = function(view) {
+
+		if (view) {
+			self.scaleViewsToFit = self.getViewPreferenceBoolean(view, self.prefix + "scale-to-fit");
+			self.scaleToFitOnDoubleClick = self.getViewPreferenceBoolean(view, self.prefix + "scale-on-double-click");
+			self.actualSizeOnDoubleClick = self.getViewPreferenceBoolean(view, self.prefix + "actual-size-on-double-click");
+			self.scaleViewsOnResize = self.getViewPreferenceBoolean(view, self.prefix + "scale-on-resize");
+			self.navigationOnKeypress = self.getViewPreferenceBoolean(view, self.prefix + "navigate-on-keypress");
+			self.showViewName = self.getViewPreferenceBoolean(view, self.prefix + "show-view-name");
+			self.refreshPageForChanges = self.getViewPreferenceBoolean(view, self.prefix + "refresh-for-changes");
+			self.showNavigationControls = self.getViewPreferenceBoolean(view, self.prefix + "show-navigation-controls");
+			self.scaleViewSlider = self.getViewPreferenceBoolean(view, self.prefix + "show-scale-controls");
+			self.enableDeepLinking = self.getViewPreferenceBoolean(view, self.prefix + "enable-deep-linking");
+			self.singlePageApplication = self.getViewPreferenceBoolean(view, self.prefix + "application");
+			self.showUpdateNotification = document.cookie!="" ? document.cookie.indexOf(self.pageRefreshedName)!=-1 : false;
+
+			if (self.scaleViewsToFit) {
+				var newScaleValue = self.scaleViewToFit();
+				
+				if (newScaleValue<0) {
+					setTimeout(self.scaleViewToFit, 500);
+				}
+			}
+			else {
+				self.viewScale = self.getViewScaleValue(view);
+				self.updateSliderValue(self.viewScale);
+			}
+		}
+	}
+
+	self.previousView = function(event) {
+		var rules = self.getStylesheetRules();
+		var view = self.getVisibleView()
+		var index = view ? self.getViewIndex(view) : -1;
+		var prevQueryIndex = index!=-1 ? index-1 : self.currentQuery.index-1;
+		var queryIndex = 0;
+		var numberOfRules = rules!=null ? rules.length : 0;
+
+		if (event) {
+			event.stopImmediatePropagation();
+		}
+
+		if (prevQueryIndex<0) {
+			return;
+		}
+
+		// loop through rules and hide media queries except selected
+		for (var i=0;i<numberOfRules;i++) {
+			var rule = rules[i];
+			
+			if (rule.media!=null) {
+
+				if (queryIndex==prevQueryIndex) {
+					self.currentQuery.mediaText = rule.conditionText;
+					self.currentQuery.index = prevQueryIndex;
+					self.currentQuery.rule = rule;
+					self.enableMediaQuery(rule);
+					self.updateViewLabel();
+					self.updateURL();
+					self.dispatchViewChange();
+				}
+				else {
+					self.disableMediaQuery(rule);
+				}
+
+				queryIndex++;
+			}
+		}
+	}
+
+	self.nextView = function(event) {
+		var rules = self.getStylesheetRules();
+		var view = self.getVisibleView();
+		var index = view ? self.getViewIndex(view) : -1;
+		var nextQueryIndex = index!=-1 ? index+1 : self.currentQuery.index+1;
+		var queryIndex = 0;
+		var numberOfRules = rules!=null ? rules.length : 0;
+		var numberOfMediaQueries = self.getNumberOfMediaRules();
+
+		if (event) {
+			event.stopImmediatePropagation();
+		}
+
+		if (nextQueryIndex>=numberOfMediaQueries) {
+			return;
+		}
+
+		// loop through rules and hide media queries except selected
+		for (var i=0;i<numberOfRules;i++) {
+			var rule = rules[i];
+			
+			if (rule.media!=null) {
+
+				if (queryIndex==nextQueryIndex) {
+					self.currentQuery.mediaText = rule.conditionText;
+					self.currentQuery.index = nextQueryIndex;
+					self.currentQuery.rule = rule;
+					self.enableMediaQuery(rule);
+					self.updateViewLabel();
+					self.updateURL();
+					self.dispatchViewChange();
+				}
+				else {
+					self.disableMediaQuery(rule);
+				}
+
+				queryIndex++;
+			}
+		}
+	}
+
+	self.enableMediaQuery = function(rule) {
+
+		try {
+			rule.media.mediaText = self.inclusionQuery;
+		}
+		catch(error) {
+			//self.log(error);
+			rule.conditionText = self.inclusionQuery;
+		}
+	}
+
+	self.disableMediaQuery = function(rule) {
+
+		try {
+			rule.media.mediaText = self.exclusionQuery;
+		}
+		catch(error) {
+			rule.conditionText = self.exclusionQuery;
+		}
+	}
+
+	self.dispatchViewChange = function() {
+		try {
+			var event = new Event(self.NAVIGATION_CHANGE);
+			window.dispatchEvent(event);
+		}
+		catch (error) {
+			// In IE 11: Object doesn't support this action
+		}
+	}
+
+	self.getNumberOfMediaRules = function() {
+		var rules = self.getStylesheetRules();
+		var numberOfQueries = 0;
+
+		for (var i=0;i<rules.length;i++) {
+			if (rules[i].media!=null) { numberOfQueries++; }
+		}
+		return numberOfQueries;
+	}
+
+	/////////////////////////////////////////
+	// VIEW SCALE 
+	/////////////////////////////////////////
+
+	self.sliderChangeHandler = function(event) {
+		var value = event.currentTarget.value/100;
+		var view = self.getVisibleView();
+		self.setViewScaleValue(view, value, false, true);
+	}
+
+	self.updateSliderValue = function(scale) {
+		var slider = document.getElementById("ViewZoomSliderInput");
+		var tooltip = parseInt(scale * 100 + "") + "%";
+		var inputType;
+		
+		if (slider) {
+			slider["value"] = scale * 100;
+			inputType = slider.getAttributeNS(null, "type");
+
+			if (inputType!="range") {
+				// input range is not supported
+				slider.style.display = "none";
+			}
+
+			self.setTooltip(slider, tooltip);
+		}
+	}
+
+	self.viewChangeHandler = function(event) {
+		var view = self.getVisibleView();
+		var matrix = view ? getComputedStyle(view).transform : null;
+		
+		if (matrix) {
+			self.viewScale = self.getViewScaleValue(view);
+			
+			var scaleNeededToFit = self.getViewFitToViewportScale(view);
+			var isViewLargerThanViewport = scaleNeededToFit<1;
+			
+			// scale large view to fit if scale to fit is enabled
+			//if (isViewLargerThanViewport && scaleViewsToFit) {
+			if (self.scaleViewsToFit) {
+				//setViewScaleValue(view, scale, true);
+				self.scaleViewToFit();
+			}
+			else {
+				self.updateSliderValue(self.viewScale);
+			}
+		}
+	}
+
+	self.getViewScaleValue = function(view) {
+		var matrix = getComputedStyle(view).transform;
+
+		if (matrix) {
+			var matrixArray = matrix.replace("matrix(", "").split(",");
+			var scaleX = parseFloat(matrixArray[0]);
+			var scaleY = parseFloat(matrixArray[3]);
+			var scale = Math.min(scaleX, scaleY);
+		}
+
+		return scale;
+	}
+
+	self.getViewTranslateYValue = function(view) {
+		var matrix = getComputedStyle(view).transform;
+
+		if (matrix) {
+			var matrixArray = matrix.replace("matrix(", "").split(",");
+			var translateY = parseFloat(matrixArray[5]);
+		}
+
+		return translateY;
+	}
+
+	self.getViewTop = function(view) {
+		var top = getComputedStyle(view).top;
+
+		return top;
+	}
+
+	self.setViewScaleValue = function(view, desiredScale, scaleViewToFit, centerVertically) {
+		var transform = getComputedStyle(view).transform;
+		var scaleNeededToFit = self.getViewFitToViewportScale(view);
+		var isViewLargerThanViewport = scaleNeededToFit<1;
+		var shrunkToFit = false;
+		
+		if (scaleViewToFit && isViewLargerThanViewport) {
+			desiredScale = scaleNeededToFit;
+			shrunkToFit = true;
+		}
+
+		if (isNaN(desiredScale)) {
+			desiredScale = 1;
+		}
+
+		desiredScale = self.getShortNumber(desiredScale);
+
+		self.updateSliderValue(desiredScale);
+
+		transform = self.getCSSPropertyValueForElement(view.id, "transform");
+
+		if (transform!=null) {
+			var horizontalCenter = transform.indexOf("translateX")!=-1;
+			var verticalCenter = transform.indexOf("translateY")!=-1;
+			var horizontalAndVerticalCenter = (horizontalCenter && verticalCenter) || (transform.indexOf("translate(")!=-1);
+			var topPosition = null;
+			var leftPosition = null;
+			var translateY = null;
+			var translateX = "-50%";
+			var centerForNavigation = self.showNavigationControls!=null && self.scaleViewsToFit;
+
+			//if (horizontalAndVerticalCenter || horizontalCenter || verticalCenter) {
+			if (horizontalAndVerticalCenter || centerForNavigation) {
+				translateX = "-50%";
+
+				// if view is smaller than viewport or center vertically is true then center vertically
+				if (shrunkToFit || centerVertically) {
+					translateX = "-50%";
+					translateY = "-50%";
+					topPosition = "50%";
+					leftPosition = "50%";
+				}
+				else {
+					translateX = "0";
+					translateY = "0";
+					topPosition = "0";
+					leftPosition = "0";
+				}
+				
+				view.style.transform = "translateX(" + translateX + ") translateY(" + translateY + ") scale(" + desiredScale + ")";
+
+				if (view.style.top != topPosition) {
+					view.style.top = topPosition + "";
+				}
+
+				if (view.style.left != leftPosition) {
+					view.style.left = leftPosition + "";
+				}
+				//view.style.transform = "translate(-50%,-50%) scale(" + desiredScale + ")";
+			}
+			else if (horizontalCenter) {
+				translateY = shrunkToFit ? "-50%" : "0%";
+				view.style.transform = "translateY(" + translateY + ") translateX(-50%) scale(" + desiredScale + ")";
+
+				// this next function needs work
+				//topPosition = getVerticallyCenteredTopValue(view);
+
+				if (shrunkToFit) {
+					view.style.top = "50%";
+				}
+				else {
+					view.style.top = "0";
+				}
+			}
+			else if (verticalCenter) {
+				view.style.transform = "translateY(-50%) scale(" + desiredScale + ")";
+			}
+			else {
+				view.style.transform = "scale(" + desiredScale + ")";
+			}
+
+			if (desiredScale!=1) {
+				// attempt to anchor to the top as scaled up
+				//view.style.top = null;
+			}
+		}
+
+		if (shrunkToFit) {
+			return scaleNeededToFit;
+		}
+
+		return desiredScale;
+	}
+
+	self.getVerticallyCenteredTopValue = function(view) {
+		var originalTransform = view.style.transform;
+		var originalTop = view.style.top;
+		var transform = null;
+
+		view.style.transform = "translateY(-50%)" + originalTransform;
+		view.style.top = "50%";
+		var translateY = self.getViewTranslateYValue(view);
+		view.style.transform = originalTransform;
+		view.style.top = originalTop;
+		return translateY;
+	}
+
+	self.getViewFitToViewportScale = function(view) {
+		var availableWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+		var availableHeight = window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight;
+		var elementWidth = parseFloat(getComputedStyle(view, "style").width);
+		var elementHeight = parseFloat(getComputedStyle(view, "style").height);
+		var newScale = 1;
+
+		availableWidth -= self.horizontalPadding;
+		availableHeight -= self.verticalPadding;
+
+		if (elementWidth > availableWidth || elementHeight > availableHeight) {
+			newScale = Math.min(availableHeight/elementHeight, availableWidth/elementWidth);
+		}
+		
+		return newScale;
+	}
+
+	self.keypressHandler = function(event) {
+		var rightKey = 39;
+		var leftKey = 37;
+		
+		// listen for both events 
+		if (event.type=="keypress") {
+			window.removeEventListener("keyup", self.keypressHandler);
+		}
+		else {
+			window.removeEventListener("keypress", self.keypressHandler);
+		}
+		
+		if (self.showNavigationControls) {
+			if (self.navigationOnKeypress) {
+				if (event.keyCode==rightKey) {
+					self.nextView();
+				}
+				if (event.keyCode==leftKey) {
+					self.previousView();
+				}
+			}
+		}
+		else if (self.navigationOnKeypress) {
+			if (event.keyCode==rightKey) {
+				self.nextView();
+			}
+			if (event.keyCode==leftKey) {
+				self.previousView();
+			}
+		}
+	}
+
+	///////////////////////////////////
+	// GENERAL FUNCTIONS
+	///////////////////////////////////
+
+	self.getViewById = function(id) {
+		id = id ? id.replace("#", "") : "";
+		var view = self.viewIds.indexOf(id)!=-1 && document.getElementById(id);
+		return view;
+	}
+
+	self.getViewIds = function() {
+		var viewIds = self.getViewPreferenceValue(document.body, self.prefix + "view-ids");
+		var viewId = null;
+
+		viewIds = viewIds!=null && viewIds!="" ? viewIds.split(",") : [];
+
+		if (viewIds.length==0) {
+			viewId = self.getViewPreferenceValue(document.body, self.prefix + "view-id");
+			viewIds = viewId ? [viewId] : [];
+		}
+
+		return viewIds;
+	}
+
+	self.getApplicationStylesheet = function() {
+		var stylesheetId = self.getViewPreferenceValue(document.body, self.prefix + "stylesheet-id");
+		self.applicationStylesheet = document.getElementById("applicationStylesheet");
+		return self.applicationStylesheet.sheet;
+	}
+
+	self.getViewQueries = function() {
+		var stylesheetId = self.getViewPreferenceValue(document.body, self.prefix + "stylesheet-id");
+		var viewIds = self.getViewIds();
+	}
+
+	self.getVisibleView = function() {
+		var viewIds = self.getViewIds();
+
+		try {
+			//var rules = self.getStylesheetRules();
+			//var styleSheet = self.getApplicationStylesheet();
+
+			/*
+			viewIds = rules[1].selectorText.split(/\,?\s+?#/);
+			if (viewIds[0]=="*") {
+				viewIds = rules[2].selectorText.split(/\,?\s+?#/);
+			}
+			*/
+		}
+		catch(error) {
+			console.log("For the page functionality to work the first two style declarations must be the generated ones.");
+			return;
+		}
+		
+		for (var i=0;i<viewIds.length;i++) {
+			var viewId = viewIds[i].replace(/[\#?\.?](.*)/, "$" + "1");
+			var view = document.getElementById(viewId);
+			var postName = "_Class";
+
+			if (view==null && viewId && viewId.lastIndexOf(postName)!=-1) {
+				view = document.getElementById(viewId.replace(postName, ""));
+			}
+			
+			if (view) {
+				var display = window.getComputedStyle(view).display;
+		
+				if (display=="block") {
+					return view;
+				}
+			}
+		}
+
+		return null;
+	}
+
+	self.getViewIndex = function(view) {
+		var viewIds = self.getViewIds();
+		var id = view ? view.id : null;
+		var index = id && viewIds ? viewIds.indexOf(id) : -1;
+
+		return index;
+	}
+
+	self.syncronizeViewToURL = function() {
+		var fragment = window.location.hash;
+		var view = self.getViewById(fragment);
+		var index = view ? self.getViewIndex(view) : 0;
+		if (index==-1) index = 0;
+		var currentView = self.hideViews(index);
+
+		if (self.supportsPopState && currentView) {
+
+			if (fragment==null) {
+				window.history.replaceState({name:currentView.id}, null, "#"+ currentView.id);
+			}
+			else {
+				window.history.pushState({name:currentView.id}, null, "#"+ currentView.id);
+			}
+		}
+		return view;
+	}
+
+	self.getViewPreferenceBoolean = function(view, property) {
+		var value = window.getComputedStyle(view).getPropertyValue(property);
+		var type = typeof value;
+		
+		if (value=="true" || (type=="string" && value.indexOf("true")!=-1)) {
+			return true;
+		}
+
+		return false;
+	}
+
+	self.getViewPreferenceValue = function(view, property) {
+		var value = window.getComputedStyle(view).getPropertyValue(property);
+		if (value===undefined) {
+			return null;
+		}
+		
+		value = value.replace(/^[\s"]*(.*?)[\s"]*$/, "$1")
+		return value;
+	}
+
+	self.getCSSPropertyValueForElement = function(id, property) {
+		var styleSheets = document.styleSheets;
+		var numOfStylesheets = styleSheets.length;
+		var values = [];
+		var selectorIDText = "#" + id;
+		var selectorClassText = "." + id + "_Class";
+		var value;
+
+		for(var i=0;i<numOfStylesheets;i++) {
+			var styleSheet = styleSheets[i];
+			var cssRules = self.getStylesheetRules(styleSheet);
+			var numOfCSSRules = cssRules.length;
+			var cssRule;
+			
+			for (var j=0;j<numOfCSSRules;j++) {
+				cssRule = cssRules[j];
+				
+				if (cssRule.media) {
+					var mediaRules = cssRule.cssRules;
+					var numOfMediaRules = mediaRules ? mediaRules.length : 0;
+					
+					for(var k=0;k<numOfMediaRules;k++) {
+						var mediaRule = mediaRules[k];
+						
+						if (mediaRule.selectorText==selectorIDText || mediaRule.selectorText==selectorClassText) {
+							
+							if (mediaRule.style && property in mediaRule.style) {
+								value = mediaRule.style.getPropertyValue(property);
+								//console.log(property+":" + value);
+								values.push(value);
+							}
+						}
+					}
+				}
+				else {
+
+					if (cssRule.selectorText==selectorIDText || cssRule.selectorText==selectorClassText) {
+						if (cssRule.style && property in cssRule.style) {
+							value = cssRule.style.getPropertyValue(property);
+							//console.log(property+":" + value);
+							values.push(value);
+						}
+					}
+				}
+			}
+		}
+		
+		return values.pop();
+	}
+
+	self.collectViews = function() {
+		var viewIds = self.getViewIds();
+
+		for (let index = 0; index < viewIds.length; index++) {
+			const id = viewIds[index];
+			const view = self.getViewById(id);
+			self.views[id] = view;
+		}
+		
+		self.viewIds = viewIds;
+	}
+
+	self.collectMediaQueries = function() {
+		var viewIds = self.getViewIds();
+		var styleSheet = self.getApplicationStylesheet();
+		var cssRules = self.getStylesheetRules(styleSheet);
+		var numOfCSSRules = cssRules.length;
+		var cssRule;
+		var id = null;
+		var selectorIDText = "#" + id;
+		var selectorClassText = "." + id + "_Class";
+		
+		for (var j=0;j<numOfCSSRules;j++) {
+			cssRule = cssRules[j];
+			
+			if (cssRule.media) {
+				var mediaRules = cssRule.cssRules;
+				var numOfMediaRules = mediaRules ? mediaRules.length : 0;
+				
+				for(var k=0;k<numOfMediaRules;k++) {
+					var mediaRule = mediaRules[k];
+					var mediaId = null;
+
+					if (k<2) {
+						mediaId = mediaRule.selectorText.replace(/[#|\s|*]?/g, "");
+						
+						if (viewIds.indexOf(mediaId)!=-1) {
+							self.mediaQueryDictionary[mediaId] = cssRule;
+							self.addState(mediaId, cssRule);
+							break;
+						}
+					}
+					else {
+						break;
+					}
+				}
+			}
+			else {
+
+				if (cssRule.selectorText==selectorIDText || cssRule.selectorText==selectorClassText) {
+					continue;
+				}
+			}
+		}
+	}
+
+	self.addState = function(name, cssRule) {
+		var state = {name:name, rule:cssRule};
+		self.states.push(name);
+		self.statesDictionary[name] = state;
+	}
+
+	self.hasState = function(name) {
+		
+		if (self.states.indexOf(name)!=-1) {
+			return true;
+		}
+		return false;
+	}
+
+	self.goToState = function(name, maintainPreviousState) {
+		var state = self.statesDictionary[name];
+
+		if (state) {
+			if (maintainPreviousState==false || maintainPreviousState==null) {
+				self.hideViews();
+			}
+			self.enableMediaQuery(state.rule);
+			self.updateViewLabel();
+			self.updateURL();
+		}
+		else {
+			var event = new Event(self.STATE_NOT_FOUND);
+			self.stateName = name;
+			window.dispatchEvent(event);
+		}
+	}
+
+	self.resizeHandler = function(event) {
+		if (self.scaleViewsOnResize) {
+			self.scaleViewToFit();
+		}
+	}
+
+	self.preventDoubleClick = function(event) {
+		event.stopImmediatePropagation();
+	}
+
+	self.hashChangeHandler = function(event) {
+		var fragment = window.location.hash ? window.location.hash.replace("#", "") : "";
+		var view = self.getViewById(fragment);
+
+		if (view) {
+			self.hideViews();
+			self.showView(view);
+			self.updateViewLabel();
+		}
+		else {
+			window.dispatchEvent(new Event(self.VIEW_NOT_FOUND));
+		}
+	}
+
+	self.popStateHandler = function(event) {
+		var state = event.state;
+		var fragment = state ? state.name : window.location.hash;
+		var view = self.getViewById(fragment);
+
+		if (view) {
+			self.hideViews();
+			self.showView(view);
+			self.updateViewLabel();
+		}
+		else {
+			window.dispatchEvent(new Event(self.VIEW_NOT_FOUND));
+		}
+	}
+
+	self.doubleClickHandler = function(event) {
+		var view = self.getVisibleView();
+		var scaleValue = self.getViewScaleValue(view);
+		var scaleNeededToFit = self.getViewFitToViewportScale(view);
+
+		// Three scenarios
+		// - scale to fit on double click
+		// - set scale to actual size on double click
+		// - switch between scale to fit and actual page size
+
+		// if scale and actual size enabled then switch between
+		if (self.scaleToFitOnDoubleClick && self.actualSizeOnDoubleClick) {
+			var isViewScaled = view.getAttributeNS(null, self.SIZE_STATE_NAME);
+			var isScaled = false;
+			
+			// if scale is not 1 then view needs scaling
+			if (scaleNeededToFit!=1) {
+
+				// if current scale is at 1 it is at actual size
+				// scale it to fit
+				if (scaleValue==1) {
+					self.scaleViewToFit();
+					isScaled = true;
+				}
+				else {
+					// scale is not at 1 so switch to actual size
+					self.scaleViewToActualSize();
+					isScaled = false;
+				}
+			}
+			else {
+				// view is smaller than viewport 
+				// so scale to fit() is scale actual size
+				// actual size and scaled size are the same
+				// but call scale to fit to retain centering
+				self.scaleViewToFit();
+				isScaled = false;
+			}
+			
+			view.setAttributeNS(null, SIZE_STATE_NAME, isScaled+"");
+			isViewScaled = view.getAttributeNS(null, SIZE_STATE_NAME);
+		}
+		else if (self.scaleToFitOnDoubleClick) {
+			self.scaleViewToFit();
+		}
+		else if (self.actualSizeOnDoubleClick) {
+			self.scaleViewToActualSize();
+		}
+
+	}
+
+	self.scaleViewToFit = function() {
+		var view = self.getVisibleView();
+		return self.setViewScaleValue(view, 1, true, true);
+	}
+
+	self.scaleViewToActualSize = function() {
+		var view = self.getVisibleView();
+		self.setViewScaleValue(view, 1);
+	}
+
+	self.onloadHandler = function(event) {
+		self.initialize();
+	}
+
+	self.getStackArray = function(error) {
+		var value = "";
+		
+		if (error==null) {
+		  try {
+			 error = new Error("Stack");
+		  }
+		  catch (e) {
+			 
+		  }
+		}
+		
+		if ("stack" in error) {
+		  value = error.stack;
+		  var methods = value.match(/\\n/gm);
+	 
+		  var newArray = methods ? methods.map(function (value, index, array) {
+			 value = value.replace("at ","");
+			 return value;
+		  }) : null;
+	 
+		  if (newArray && newArray[0]=="getStackTrace") {
+			 newArray.shift();
+		  }
+		  if (newArray && newArray[0]=="getStackArray") {
+			 newArray.shift();
+		  }
+		  if (newArray && newArray[0]=="getFunctionName") {
+			 newArray.shift();
+		  }
+		  if (newArray && newArray[0]=="object") {
+			 newArray.shift();
+		  }
+		  if (newArray && newArray[0]=="log") {
+			 newArray.shift();
+		  }
+	 
+			return newArray;
+		}
+		
+		return null;
+	}
+
+	this.log = function(value) {
+		console.log.apply(this, [value]);
+	}
+	
+	// initialize on load
+	// sometimes the body size is 0 so we call this now and again later
+	window.addEventListener("load", self.onloadHandler);
+	window.document.addEventListener("DOMContentLoaded", self.onloadHandler);
+}
+
+var application = new Application();
+window.application = application;
+</script>
 </body>
 </html>
